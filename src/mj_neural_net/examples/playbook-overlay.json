@@ -1,0 +1,162 @@
+{
+  "profile": "MJ-Neural-Net/0.1.0",
+  "neural": {
+    "profile": "MJ-Bangel-Neural/0.1.0",
+    "as_of": 100,
+    "memories": [
+      {
+        "id": "memory-a",
+        "pattern": [
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9"
+        ],
+        "entity": "robot",
+        "relation": "inspection",
+        "context": "bench",
+        "observed_at": 10,
+        "available_at": 11,
+        "provenance": "OBSERVED"
+      }
+    ],
+    "query": {
+      "id": "query-1",
+      "observed_at": 100,
+      "cue": [
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9"
+      ],
+      "entity": "robot",
+      "relation": "inspection",
+      "context": "bench",
+      "previous_command": "measure"
+    },
+    "history": [
+      {
+        "id": "history-0",
+        "previous": "measure",
+        "following": "derive",
+        "observed_at": 20,
+        "available_at": 20,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "history-1",
+        "previous": "measure",
+        "following": "derive",
+        "observed_at": 21,
+        "available_at": 21,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "history-2",
+        "previous": "measure",
+        "following": "derive",
+        "observed_at": 22,
+        "available_at": 22,
+        "provenance": "OBSERVED"
+      }
+    ],
+    "updates": [],
+    "validation": []
+  },
+  "memory_recall": {
+    "profile": "MJ-Memory-Recall/0.1.0",
+    "namespace": "robotics.lab",
+    "as_of": 100,
+    "frame": {
+      "height": "455",
+      "id": "lecanto-schematic-0.9.0",
+      "width": "748",
+      "x_min": "42",
+      "y_min": "55"
+    },
+    "memories": [
+      {
+        "id": "memory-a",
+        "namespace": "robotics.lab",
+        "pattern": [
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9",
+          "0.9"
+        ],
+        "entity": "robot",
+        "relation": "inspection",
+        "context": "bench",
+        "observed_at": 10,
+        "available_at": 11,
+        "provenance": "OBSERVED",
+        "receipt_ref": "fixture-a",
+        "selection_id": "dlxs:offense:inside-zone:base-bangel",
+        "trace": []
+      }
+    ],
+    "query": {
+      "id": "query-1",
+      "observed_at": 100,
+      "cue": [
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9",
+        "0.9"
+      ],
+      "entity": "robot",
+      "relation": "inspection",
+      "context": "bench",
+      "previous_command": "measure",
+      "events": [
+        {
+          "actor": "X",
+          "step": 8,
+          "position": [
+            "108",
+            "265"
+          ],
+          "command": "require"
+        },
+        {
+          "actor": "LT",
+          "step": 8,
+          "position": [
+            "312",
+            "262"
+          ],
+          "command": "require"
+        },
+        {
+          "actor": "LG",
+          "step": 8,
+          "position": [
+            "357",
+            "262"
+          ],
+          "command": "require"
+        }
+      ]
+    }
+  }
+}

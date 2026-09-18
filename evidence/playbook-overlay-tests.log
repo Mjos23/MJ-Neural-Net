@@ -1,0 +1,8 @@
+test_ambiguous_candidate_does_not_create_a_playbook_layer (test_playbook_overlay.PlaybookSpatialOverlay.test_ambiguous_candidate_does_not_create_a_playbook_layer) ... ok
+test_missing_or_denied_review_cannot_admit_spatial_placement (test_playbook_overlay.PlaybookSpatialOverlay.test_missing_or_denied_review_cannot_admit_spatial_placement) ... ok
+test_offense_and_defense_source_paths_drive_native_layer (test_playbook_overlay.PlaybookSpatialOverlay.test_offense_and_defense_source_paths_drive_native_layer) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 33.464s
+
+OK

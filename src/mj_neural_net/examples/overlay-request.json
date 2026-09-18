@@ -1,0 +1,125 @@
+{
+  "profile": "MJ-Neural-Net/0.1.0",
+  "neural": {
+    "profile": "MJ-Bangel-Neural/0.1.0",
+    "as_of": 1000,
+    "memories": [
+      {
+        "id": "memory-a",
+        "pattern": [
+          "0.9",
+          "0.9",
+          "0.9",
+          "-0.9",
+          "-0.9",
+          "-0.9",
+          "0.9",
+          "-0.9",
+          "0.9"
+        ],
+        "entity": "robot-a",
+        "relation": "docking",
+        "context": "bay-a",
+        "observed_at": 10,
+        "available_at": 20,
+        "provenance": "OBSERVED"
+      }
+    ],
+    "history": [
+      {
+        "id": "command-0",
+        "previous": "emit",
+        "following": "let",
+        "observed_at": 30,
+        "available_at": 31,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-1",
+        "previous": "let",
+        "following": "measure",
+        "observed_at": 32,
+        "available_at": 33,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-2",
+        "previous": "measure",
+        "following": "derive",
+        "observed_at": 34,
+        "available_at": 35,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-3",
+        "previous": "derive",
+        "following": "for",
+        "observed_at": 36,
+        "available_at": 37,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-4",
+        "previous": "for",
+        "following": "if",
+        "observed_at": 38,
+        "available_at": 39,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-5",
+        "previous": "if",
+        "following": "require",
+        "observed_at": 40,
+        "available_at": 41,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-6",
+        "previous": "require",
+        "following": "match",
+        "observed_at": 42,
+        "available_at": 43,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-7",
+        "previous": "match",
+        "following": "emit",
+        "observed_at": 44,
+        "available_at": 45,
+        "provenance": "OBSERVED"
+      },
+      {
+        "id": "command-8",
+        "previous": "emit",
+        "following": "return",
+        "observed_at": 46,
+        "available_at": 47,
+        "provenance": "OBSERVED"
+      }
+    ],
+    "updates": [],
+    "validation": [],
+    "query": {
+      "id": "query-a",
+      "observed_at": 1000,
+      "cue": [
+        "0.9",
+        null,
+        "0.9",
+        "-0.9",
+        null,
+        "-0.9",
+        "0.9",
+        null,
+        "0.9"
+      ],
+      "entity": "robot-a",
+      "relation": "docking",
+      "context": "bay-a",
+      "previous_command": "emit"
+    }
+  },
+  "memory_recall": null
+}

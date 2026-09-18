@@ -1,0 +1,14 @@
+test_http_default_remains_held_and_has_no_receipt (test_package.HTTPContractTests.test_http_default_remains_held_and_has_no_receipt) ... ok
+test_http_framing_and_routing_are_bounded (test_package.HTTPContractTests.test_http_framing_and_routing_are_bounded) ... ok
+test_json_boundaries_reject_before_review (test_package.HTTPContractTests.test_json_boundaries_reject_before_review) ... ok
+test_profile_requires_no_execution_or_review (test_package.HTTPContractTests.test_profile_requires_no_execution_or_review) ... ok
+test_reviewer_failure_or_bad_binding_fails_closed (test_package.HTTPContractTests.test_reviewer_failure_or_bad_binding_fails_closed) ... ok
+test_server_review_cannot_modify_request_or_overturn_denial (test_package.HTTPContractTests.test_server_review_cannot_modify_request_or_overturn_denial) ... ok
+test_clone_matches_recorded_baseline_result (test_package.PackageContractTests.test_clone_matches_recorded_baseline_result) ... ok
+test_neural_source_is_the_attributed_baseline (test_package.PackageContractTests.test_neural_source_is_the_attributed_baseline) ... ok
+test_packaged_resources_are_available (test_package.PackageContractTests.test_packaged_resources_are_available) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 10.477s
+
+OK

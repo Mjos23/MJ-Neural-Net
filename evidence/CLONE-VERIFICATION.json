@@ -1,0 +1,89 @@
+{
+  "profile": "MJ-Neural-Net-Clone-Verification/0.1.0",
+  "scope": "CLONED_BASELINE_BEFORE_OVERLAY_INTEGRATION",
+  "status": "PASS",
+  "baseline": {
+    "repository": "Mjos23/bangel-language",
+    "commit": "8aa890baf101596220a6a3e26f76e0e0bebb942b",
+    "path": "plugins/mj_bangel_neural",
+    "neural_source_unchanged": true
+  },
+  "checks": {
+    "new_contract_gap": {
+      "status": "CONFIRMED",
+      "before": "ModuleNotFoundError: mj_neural_net"
+    },
+    "focused_source_contracts": {
+      "status": "PASS",
+      "tests": 9,
+      "seconds": 12.723
+    },
+    "installed_wheel_contracts": {
+      "status": "PASS",
+      "tests": 9,
+      "seconds": 10.477,
+      "package_location": "isolated target installation",
+      "dependency_location": "existing local Bangel source",
+      "command": "python -B -m unittest discover -s <package>/tests -p test_package.py -v"
+    },
+    "installed_console_lower_and_independent_admission": {
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "wheel_and_source_archive_build": {
+      "status": "PASS"
+    },
+    "wheel_resource_license_and_exact_dependency_metadata": {
+      "status": "PASS",
+      "dependency": "bangel-language==0.2.0rc1"
+    },
+    "exact_original_result_parity": {
+      "status": "PASS",
+      "allowed_differences": [
+        "name",
+        "implementation"
+      ],
+      "fixture": "tests/fixtures/baseline-partial-result.json"
+    },
+    "baseline_contract_preservation": {
+      "status": "PRESERVED",
+      "tests": 28,
+      "rerun_in_this_slice": false
+    }
+  },
+  "artifacts": {
+    "mj_neural_net-0.1.0-py3-none-any.whl": "7672cf6c69ad8a61b19b355ff6f4a3c537104b8dd801e450bc0a1de7a814b86c",
+    "mj_neural_net-0.1.0.tar.gz": "81dbd37fc3592e8e966540f71c83c70c4f04388215d65e6e22e87372376bff4b"
+  },
+  "files_sha256": {
+    "LICENSE": "f8168b74aeeb9c2fa86eb3c3bc317e2156cfabbe0c2ab532881f3a21f5472481",
+    "MANIFEST.in": "46be16877b101a3372019188fce4e0427bb15ef7b4a1a6e6bf0ca9c9cdf0ceda",
+    "README.md": "2165aec80bb800b1556ee3c62461c964a662cb39b53ba2f9d7784a7895cef2f7",
+    "pyproject.toml": "369e3968d7ab3e3b35d946724b9198aa300c9662f56c813740498af37bc016ec",
+    "src/mj_neural_net/PATHWAYS.json": "bcf844c9a3ef4850f5023c57031f5540b85a88a12f6c1c480a4300bdf070ee14",
+    "src/mj_neural_net/PLUGIN.json": "16f8862ac34bfbf17f96e3570a936c2ccaa2568eb227b484c1ce3e840980a759",
+    "src/mj_neural_net/__init__.py": "3bac03ed2ac6b0e9ec13c35af20d265bfe9d7871e0b39b7a02a5042075268eeb",
+    "src/mj_neural_net/__main__.py": "592fee0487f1e1ef17786db6269bc508fbf75d8be34087de993d1b403b0eee2e",
+    "src/mj_neural_net/adapter.py": "9b889e2fa8ae3818c5d3b34df7a680d9bee22b696dfb2e2f350240b41d5e97f0",
+    "src/mj_neural_net/api.py": "d059e9c0a5c2441b393f96d5147a84a4ca49e40ea9e5ac4152838cdb3d3cef43",
+    "src/mj_neural_net/docs/INPUT-CONTRACT.md": "6fe26d421dbf71799c70863889a544a9b14ef28066228a48909b3be276a91d3a",
+    "src/mj_neural_net/docs/NEUROSCIENCE.md": "51164529759d9abd39e58a55c15c682a23d98c9901036cdde8219065abfce8b8",
+    "src/mj_neural_net/docs/PAPER-REFERENCES.json": "6acf8c22757dd197eb534fbf77591f811593ced74eb422c7768b4f780d5a872a",
+    "src/mj_neural_net/docs/r0-0.1.0.md": "5167ef9330f8f8140f043d16879503df53815b4957c9e6eecd5ebe93a8430540",
+    "src/mj_neural_net/examples/partial-cue.json": "f1837baca9fd448368b2c47f198bded272e7fb3772635094e79099a018685b42",
+    "src/mj_neural_net/simulation.py": "09895edbb96941998c6c1e597697d82de1847642fa90e23ae54f2a71fc42d1a8",
+    "src/mj_neural_net/source/neural.bangel": "39b91c4ac89a15eb6267ae38436d186a1ffec370205637880cc60af9adcc0d9e",
+    "src/mj_neural_net/transport.py": "72d0424cdc518593df67d2bae9cced00f8193742ee54e4068a96c4e343fee1a1",
+    "tests/fixtures/baseline-partial-result.json": "7491213dd24474dea203f93894fe30af4ac8d2f807527ea2936d0b5024b19450",
+    "tests/test_baseline_contract.py": "0f67f2fc4f15837f9d3bae3dd172db4632d8be6c771fea124bf7a368ebdd80b8",
+    "tests/test_package.py": "37b55d7eaeadc9c0fe656612a30db4d11b1234c1afebf19ee58f1496c84a35d8"
+  },
+  "limits": [
+    "No server started or deployed",
+    "No package index publication",
+    "The 28 original behavior tests were retained, not redundantly rerun in this slice",
+    "Installed verification used the existing local Bangel source dependency; parent integration must verify complete dependency installation",
+    "This checkpoint precedes Teal catalog and physics-playbook overlay integration",
+    "No recall improvement is attributed to cloning or HTTP packaging"
+  ]
+}

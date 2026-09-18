@@ -1,0 +1,177 @@
+{
+  "profile": "MJ-Neural-Net-Overlay-Verification/0.1.0",
+  "status": "PASS",
+  "scope": "LOCAL_SOURCE_AND_ISOLATED_WHEEL_SMOKE",
+  "baseline": {
+    "source_sha256": "39b91c4ac89a15eb6267ae38436d186a1ffec370205637880cc60af9adcc0d9e",
+    "original_source_unchanged": true,
+    "paper_references_sha256": "6acf8c22757dd197eb534fbf77591f811593ced74eb422c7768b4f780d5a872a",
+    "original_teal_purple_blue_map_unchanged": true
+  },
+  "source_coverage": {
+    "recovered_teal_papers": 500,
+    "teal_pictures": 0,
+    "teal_referenced_yellow_instances": 100,
+    "distinct_templates": 5,
+    "nodes_per_template": [
+      4,
+      9,
+      6,
+      4,
+      3
+    ],
+    "edges_per_template": [
+      3,
+      8,
+      5,
+      3,
+      2
+    ],
+    "occurrences_per_template": [
+      19,
+      24,
+      17,
+      27,
+      13
+    ],
+    "source_edges_directed": false,
+    "approved_ordered_source_traversals_established": 0,
+    "all_historical_editions_covered": false,
+    "assignment": "SOURCE_GENERATOR_SHA256_ID_MOD_5; NOT_SEMANTIC_APPROVAL"
+  },
+  "checks": {
+    "baseline_and_overlay_full_suite": {
+      "tests": 47,
+      "status": "PASS",
+      "seconds": 135.655,
+      "phase": "before optional spatial extension"
+    },
+    "affected_overlay_composition_rerun": {
+      "tests": 10,
+      "status": "PASS",
+      "seconds": 35.992,
+      "phase": "final spatial implementation"
+    },
+    "spatial_playbook_suite": {
+      "tests": 3,
+      "status": "PASS",
+      "seconds": 33.464,
+      "sides": [
+        "OFFENSE",
+        "DEFENSE"
+      ],
+      "independent_geometry_and_diffusion": true,
+      "actors": 11,
+      "samples_per_actor": 9,
+      "adjacent_pairs": 88,
+      "hold_deny_excluded": true,
+      "ambiguous_layer_absent": true
+    },
+    "isolated_wheel_smoke": {
+      "status": "PASS",
+      "python": "3.12.14",
+      "packages": {
+        "bangel-language": "0.2.0rc1",
+        "mj-memory-recall": "0.1.0",
+        "mj-neural-net": "0.1.0"
+      },
+      "all_imports_under_fresh_venv": true,
+      "pythonpath_unset": true,
+      "pip_check": "PASS",
+      "compose_candidate": "memory-a",
+      "review_status": "MATCH_FOR_REVIEW",
+      "receipt_root": "76098d73a33b00e0c0df0ab75420653131dc9a67973c298afdbed45d1e3bc0fe",
+      "resources": {
+        "instruction_limit": 50000,
+        "event_limit": 50000,
+        "function_depth": 64,
+        "evaluation_limit": 1000000,
+        "allocation_limit": 16000000,
+        "output_limit": 1048576,
+        "receipt_limit": 16777216,
+        "evaluations_used": 50208,
+        "instructions_used": 12089,
+        "events_used": 12089,
+        "allocations_used": 936404,
+        "output_bytes": 14659,
+        "function_depth_used": 4
+      }
+    },
+    "isolated_console_lower_overlay_and_independent_jp_admission": "PASS",
+    "wheel_and_sdist_all_package_source_bytes_match": "PASS",
+    "original_baseline_paper_map_byte_comparison": "PASS",
+    "identity_scan": {
+      "status": "PASS",
+      "assets_including_nested_package_members": 111,
+      "expanded_bytes": 1755687
+    }
+  },
+  "native_sources": {
+    "neural.bangel": "39b91c4ac89a15eb6267ae38436d186a1ffec370205637880cc60af9adcc0d9e",
+    "overlay.bangel": "9629b32de7454f885d8326c8ed4ab6f47dbcd4e7e34966a75c50b81636e6aa94",
+    "main.bangel": "e6d316cd36e5d2d605580f984135714968166963aace236b56b7590119406b82",
+    "recall.bangel": "b3b5782def4988a376fa8471fa3ccc2d630e4a5d392ed37533544ddfeb0c3598",
+    "playbook.bangel": "675b8cc4205a38d349c64b19b2db2e0e622b1fe35f3ad361ffd96535a108b43d"
+  },
+  "whole_envelope_sha256": "a031776f1f330e7175d26f0c168535b6c22d7e5351f1912f2fb64b1a0b343113",
+  "review_policy": "COMPLETE_ENVELOPE_BOUND_BEFORE_CHILD_REBIND; DEFAULT_HOLD; ANY_DENY_DOMINATES",
+  "playbook_layer": {
+    "profile": "MJ-Neural-Playbook-Layer/0.1.0",
+    "selection_id": "dlxs:offense:inside-zone:base-bangel",
+    "selection_sha256": "ceaefe51b3bb285d39e8e2d1ce41480f4500ac7147935cc22ee265159edaece8",
+    "admitted": true,
+    "native_curves_and_symmetric_diffusion": true
+  },
+  "artifacts": {
+    "mj_neural_net-0.1.0-py3-none-any.whl": "69de8c0dd9663c24df5be8e161dfff79535535a416da120eee9df454acb611e2",
+    "mj_neural_net-0.1.0.tar.gz": "e0b845cb36514de628f19e0fef6e2baae3c0431812450c05a67d82aa4e34cc6b"
+  },
+  "limitations": [
+    "Local wheel smoke only; parent CI owns full installed cross-platform suites and native SDK parity.",
+    "Source geometries are not approved executable command paths.",
+    "No general placement or composed-recall improvement is established by these functional tests.",
+    "The standalone memory 32-case comparison does not automatically apply to composition or placement.",
+    "Ephemeral neural transition selection is separate from persistent-memory evidence qualification; neither installs a model."
+  ],
+  "files_sha256": {
+    ".gitignore": "199250a9ae327c51ec017eff88e99bf8300d6733fac615d47f1e9958f1834c9f",
+    "LICENSE": "f8168b74aeeb9c2fa86eb3c3bc317e2156cfabbe0c2ab532881f3a21f5472481",
+    "MANIFEST.in": "d114f512973217265c9393114d0aae32c049d3b4dd7529d34140a3a3743a4038",
+    "README.md": "888248d7eb4914efa86328647208237b4a2b03045f843053b1325fa9f907bdbb",
+    "evidence/CLONE-VERIFICATION.json": "19b13887f03789429c6023f10d05f0b826ad7f0036ae67f76732d5a5565e3b50",
+    "evidence/full-neural-tests.log": "64b9733372e593cd5a704cff079f05314b93ef853adab480087c713b350a14f8",
+    "evidence/overlay-tests.log": "3bf4e8a16eddeac69c2b4bd0739ed594ebfc717407d5eb3e914c21419b21f3f7",
+    "evidence/package-tests.log": "95b59192d4dbdfe5f46c47fdf460ad226ea264fd6423d37ed1b34fda9674572d",
+    "evidence/playbook-overlay-tests.log": "8d5a28b0a8b555e2008fd6323a9d41e9830aecc9722c99d67b99fc410ce40d2b",
+    "pyproject.toml": "b415fe658b57cff0156ebe106c316f486ea73797be1954b71e2f1cee8288c3dc",
+    "src/mj_neural_net/PATHWAYS.json": "bcf844c9a3ef4850f5023c57031f5540b85a88a12f6c1c480a4300bdf070ee14",
+    "src/mj_neural_net/PLUGIN.json": "9dc96cd778bdbab649c2f47f8682574a3bc95f8fd5dc4fcc1b8f4896d15cc698",
+    "src/mj_neural_net/__init__.py": "c9cb6532feb007ce01e6bcf96eae6ae7237d696324e7efcd98b855cf6ae66ba4",
+    "src/mj_neural_net/__main__.py": "592fee0487f1e1ef17786db6269bc508fbf75d8be34087de993d1b403b0eee2e",
+    "src/mj_neural_net/adapter.py": "dd7caabe51f0d4e972651e12165a180f2fb4d15bf92b5b4ba829ab2510937c68",
+    "src/mj_neural_net/api.py": "ac8bb95d1f144dba2a3b67976aba03380ce9c3d334c119babfbf156769fadc84",
+    "src/mj_neural_net/data/teal-diagrams.json": "d6d913266a43e644cee7ea810eba0ff2aa5597d5534eb4457fee0c1baf49bf7d",
+    "src/mj_neural_net/data/teal-mappings.json": "d2e1a0c592af83df794477ee8f5a07b7ab440dec574979c64f09f734ba52bdd4",
+    "src/mj_neural_net/docs/INPUT-CONTRACT.md": "6fe26d421dbf71799c70863889a544a9b14ef28066228a48909b3be276a91d3a",
+    "src/mj_neural_net/docs/NEUROSCIENCE.md": "51164529759d9abd39e58a55c15c682a23d98c9901036cdde8219065abfce8b8",
+    "src/mj_neural_net/docs/OVERLAY-0.1.0.md": "831ed421311540577ceeb4fd27d19ba1041617c248438a648d81a99e41d9e0df",
+    "src/mj_neural_net/docs/PAPER-REFERENCES.json": "6acf8c22757dd197eb534fbf77591f811593ced74eb422c7768b4f780d5a872a",
+    "src/mj_neural_net/docs/r0-0.1.0.md": "5167ef9330f8f8140f043d16879503df53815b4957c9e6eecd5ebe93a8430540",
+    "src/mj_neural_net/examples/overlay-request.json": "99f1a0e8786ca8b95f6fd7ec643036f41363d3bd4370d7a424a6ac0e1306b9d3",
+    "src/mj_neural_net/examples/partial-cue.json": "f1837baca9fd448368b2c47f198bded272e7fb3772635094e79099a018685b42",
+    "src/mj_neural_net/examples/playbook-overlay.json": "41e3b6a90dec4c39a578cc95547d367427b8f56dda8c22ec7849a533a1f158cb",
+    "src/mj_neural_net/examples/recall-composition.json": "cc9c3bea99674269569dc5df1bca5d2d3e2175d4aaac0d081af43459488f2eba",
+    "src/mj_neural_net/integration.py": "6a3b52b1dff002c796920f88b0cfeadd0e879c37c37a540732931eb7e4bd1c0e",
+    "src/mj_neural_net/simulation.py": "09895edbb96941998c6c1e597697d82de1847642fa90e23ae54f2a71fc42d1a8",
+    "src/mj_neural_net/source/neural.bangel": "39b91c4ac89a15eb6267ae38436d186a1ffec370205637880cc60af9adcc0d9e",
+    "src/mj_neural_net/source/overlay.bangel": "9629b32de7454f885d8326c8ed4ab6f47dbcd4e7e34966a75c50b81636e6aa94",
+    "src/mj_neural_net/source/playbook.bangel": "675b8cc4205a38d349c64b19b2db2e0e622b1fe35f3ad361ffd96535a108b43d",
+    "src/mj_neural_net/transport.py": "72d0424cdc518593df67d2bae9cced00f8193742ee54e4068a96c4e343fee1a1",
+    "tests/fixtures/baseline-partial-result.json": "7491213dd24474dea203f93894fe30af4ac8d2f807527ea2936d0b5024b19450",
+    "tests/test_baseline_contract.py": "0f67f2fc4f15837f9d3bae3dd172db4632d8be6c771fea124bf7a368ebdd80b8",
+    "tests/test_overlay.py": "1f77f84a723578cb0d7fcc8e94adab2214cd13c4cf490717511abb738f1b8c99",
+    "tests/test_package.py": "37b55d7eaeadc9c0fe656612a30db4d11b1234c1afebf19ee58f1496c84a35d8",
+    "tests/test_playbook_overlay.py": "8abe5ac26a94128a80d5d4ab8308f7c64f1e888bdb148706fe47907fa00da3b3",
+    "tools/import_diagrams.py": "5d0551b481611ee5ed57ebca05a0d5f8075754221368bc8f3d13a1aac189593a"
+  }
+}

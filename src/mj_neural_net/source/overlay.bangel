@@ -1,0 +1,246 @@
+bangel 1.0
+module mj.neural_overlay
+effects pure
+import mj.neural as neural
+import std.math
+import std.topology
+
+# MJ-Neural-Overlay/0.1.0. Newly engineered use of five recovered picture
+# templates. Undirected picture edges become symmetric diffusion only.
+# This module does not redefine source state labels or grant authority.
+export record Point
+  x: Real
+  y: Real
+end
+export record Frame
+  xmin: Real
+  xmax: Real
+  ymin: Real
+  ymax: Real
+end
+export record Edge
+  a: Int
+  b: Int
+end
+export record Placement
+  available: Bool
+  node: Int
+  score: Real
+  margin: Real
+  command_support: Int
+end
+export record Decision
+  candidate: Text
+  matched: Bool
+  conflict: Bool
+  review_status: Text
+end
+
+export function bounds(points: Vector[Point]) -> Frame
+  var xmin: Real = 1000000.0
+  var xmax: Real = -1000000.0
+  var ymin: Real = 1000000.0
+  var ymax: Real = -1000000.0
+  for point in points limit 9
+    set xmin = math.min(xmin, point.x)
+    set xmax = math.max(xmax, point.x)
+    set ymin = math.min(ymin, point.y)
+    set ymax = math.max(ymax, point.y)
+  end
+  return Frame(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)
+end
+function bin(value: Real) -> Int
+  var result: Int = 1
+  if value < 0.25
+    set result = 0
+  end
+  if value >= 0.75
+    set result = 2
+  end
+  return result
+end
+# Normalize each source picture's node centers into a common 3x3 feature
+# space. PDF y increases downward; engineered grid y increases upward.
+# A degenerate axis maps to its middle cell. This projection is not an
+# identification of source role labels with runtime state or command names.
+export function project(frame: Frame, point: Point) -> Int
+  var x: Real = 0.5
+  var y: Real = 0.5
+  if frame.xmax > frame.xmin
+    set x = (point.x - frame.xmin) / (frame.xmax - frame.xmin)
+  end
+  if frame.ymax > frame.ymin
+    set y = (frame.ymax - point.y) / (frame.ymax - frame.ymin)
+  end
+  return 1 + bin(x) + 3 * bin(y)
+end
+export function at(values: neural.Nodes, index: Int) -> Real
+  var value: Real = values.n1
+  if index == 2
+    set value = values.n2
+  end
+  if index == 3
+    set value = values.n3
+  end
+  if index == 4
+    set value = values.n4
+  end
+  if index == 5
+    set value = values.n5
+  end
+  if index == 6
+    set value = values.n6
+  end
+  if index == 7
+    set value = values.n7
+  end
+  if index == 8
+    set value = values.n8
+  end
+  if index == 9
+    set value = values.n9
+  end
+  return value
+end
+export function forecast(weights: neural.Weights, previous: Int) -> neural.Nodes
+  var row: neural.Nodes = weights.n1
+  if previous == 2
+    set row = weights.n2
+  end
+  if previous == 3
+    set row = weights.n3
+  end
+  if previous == 4
+    set row = weights.n4
+  end
+  if previous == 5
+    set row = weights.n5
+  end
+  if previous == 6
+    set row = weights.n6
+  end
+  if previous == 7
+    set row = weights.n7
+  end
+  if previous == 8
+    set row = weights.n8
+  end
+  if previous == 9
+    set row = weights.n9
+  end
+  return row
+end
+export function support(history: Vector[neural.Transition], previous: Int) -> Int
+  var count: Int = 0
+  for item in history limit 64
+    if item.previous == previous
+      set count = count + 1
+    end
+  end
+  return count
+end
+function diffuse_value(input: neural.Nodes, edges: Vector[Edge], index: Int) -> Real
+  var total: Real = 0.0
+  var degree: Int = 0
+  for edge in edges limit 8
+    if edge.a == index
+      set total = total + at(input, edge.b)
+      set degree = degree + 1
+    end
+    if edge.b == index
+      set total = total + at(input, edge.a)
+      set degree = degree + 1
+    end
+  end
+  var value: Real = at(input, index)
+  if degree > 0
+    set value = topology.bound(value + topology.step_cap(topology.dampen(total / degree - value)))
+  end
+  return value
+end
+export function diffuse(input: neural.Nodes, edges: Vector[Edge]) -> neural.Nodes
+  return neural.Nodes(n1 = diffuse_value(input, edges, 1), n2 = diffuse_value(input, edges, 2), n3 = diffuse_value(input, edges, 3), n4 = diffuse_value(input, edges, 4), n5 = diffuse_value(input, edges, 5), n6 = diffuse_value(input, edges, 6), n7 = diffuse_value(input, edges, 7), n8 = diffuse_value(input, edges, 8), n9 = diffuse_value(input, edges, 9))
+end
+function combined_value(initial: neural.Nodes, layers: Vector[neural.Nodes; 5], index: Int) -> Real
+  var total: Real = 0.0
+  for layer in layers limit 5
+    set total = total + at(layer, index)
+  end
+  return topology.bound(at(initial, index) + topology.step_cap(topology.dampen(total / 5 - at(initial, index))))
+end
+export function combine(initial: neural.Nodes, layers: Vector[neural.Nodes; 5]) -> neural.Nodes
+  return neural.Nodes(n1 = combined_value(initial, layers, 1), n2 = combined_value(initial, layers, 2), n3 = combined_value(initial, layers, 3), n4 = combined_value(initial, layers, 4), n5 = combined_value(initial, layers, 5), n6 = combined_value(initial, layers, 6), n7 = combined_value(initial, layers, 7), n8 = combined_value(initial, layers, 8), n9 = combined_value(initial, layers, 9))
+end
+function recall_value(prior: Real, index: Int, node: Int, probability: Real, admitted: Bool) -> Real
+  var result: Real = prior
+  if admitted
+    var target: Real = 0.0
+    if index == node
+      set target = probability
+    end
+    set result = topology.bound(prior + topology.step_cap(topology.dampen(target - prior)))
+  end
+  return result
+end
+export function incorporate_recall(prior: neural.Nodes, node: Int, probability: Real, admitted: Bool) -> neural.Nodes
+  return neural.Nodes(n1 = recall_value(prior.n1, 1, node, probability, admitted), n2 = recall_value(prior.n2, 2, node, probability, admitted), n3 = recall_value(prior.n3, 3, node, probability, admitted), n4 = recall_value(prior.n4, 4, node, probability, admitted), n5 = recall_value(prior.n5, 5, node, probability, admitted), n6 = recall_value(prior.n6, 6, node, probability, admitted), n7 = recall_value(prior.n7, 7, node, probability, admitted), n8 = recall_value(prior.n8, 8, node, probability, admitted), n9 = recall_value(prior.n9, 9, node, probability, admitted))
+end
+export function placement(scores: neural.Nodes, command_support: Int) -> Placement
+  var best: Real = -1.0
+  var second: Real = -1.0
+  var node: Int = 0
+  for index in [1, 2, 3, 4, 5, 6, 7, 8, 9] limit 9
+    let value = at(scores, index)
+    if value > best
+      set second = best
+      set best = value
+      set node = index
+    else
+      if value > second
+        set second = value
+      end
+    end
+  end
+  let margin = best - second
+  return Placement(available = command_support > 0 and margin > 0.000000001, node = node, score = best, margin = margin, command_support = command_support)
+end
+export function decide(base_id: Text, base_match: Bool, recall_id: Text, recall_match: Bool, reviewed: Bool, verdict: Text, base_denied: Bool, recall_denied: Bool) -> Decision
+  var candidate: Text = ""
+  if base_match
+    set candidate = base_id
+  end
+  if recall_match
+    set candidate = recall_id
+  end
+  let conflict = base_match and recall_match and base_id != recall_id
+  let matched = (base_match or recall_match) and not conflict
+  var status: Text = "DOWNSTREAM_HOLD"
+  if matched and reviewed and verdict == "PASS"
+    set status = "MATCH_FOR_REVIEW"
+  end
+  if verdict == "DENY" or base_denied or recall_denied
+    set status = "DOWNSTREAM_DENY"
+  end
+  return Decision(candidate = candidate, matched = matched, conflict = conflict, review_status = status)
+end
+export function select_model(prior: neural.Weights, proposed: neural.Weights, admitted: Bool) -> neural.Weights
+  var result: neural.Weights = prior
+  if admitted
+    set result = proposed
+  end
+  return result
+end
+export function select_history(prior: Vector[neural.Transition], proposed: Vector[neural.Transition], admitted: Bool) -> Vector[neural.Transition]
+  var result: Vector[neural.Transition] = prior
+  if admitted
+    set result = proposed
+  end
+  return result
+end
+export function combined_support(history_support: Int, recall_support: Int, admitted: Bool) -> Int
+  var total_support: Int = history_support
+  if admitted
+    set total_support = total_support + recall_support
+  end
+  return total_support
+end

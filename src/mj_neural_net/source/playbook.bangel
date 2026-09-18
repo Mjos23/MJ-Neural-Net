@@ -1,0 +1,76 @@
+bangel 1.0
+module mj.neural_playbook
+effects pure
+import mj.neural as neural
+import mj.neural_overlay as overlay
+import std.math
+import std.topology
+
+# The original eleven curves are sampled by mj.recall.projected_path.
+# Adjacent samples are used symmetrically as a NEW engineered feature layer.
+# Repeated nodes and the multiplicity of each actor's samples are preserved.
+export function all_projected(paths: Vector[Result[Vector[Int; 9]]; 11]) -> Bool
+  var valid: Bool = true
+  for path in paths limit 11
+    match path
+      case Result.Ok(nodes)
+        for index in nodes limit 9
+          set valid = valid and index >= 1 and index <= 9
+        end
+      case Result.Err(error)
+        set valid = false
+    end
+  end
+  return valid
+end
+
+function diffused_value(initial: neural.Nodes, paths: Vector[Result[Vector[Int; 9]]; 11], index: Int) -> Real
+  var total: Real = 0.0
+  var degree: Int = 0
+  for path in paths limit 11
+    match path
+      case Result.Ok(nodes)
+        var previous: Int = 0
+        for current in nodes limit 9
+          if previous > 0
+            if previous == index
+              set total = total + overlay.at(initial, current)
+              set degree = degree + 1
+            end
+            if current == index
+              set total = total + overlay.at(initial, previous)
+              set degree = degree + 1
+            end
+          end
+          set previous = current
+        end
+      case Result.Err(error)
+        set total = total
+    end
+  end
+  var value: Real = overlay.at(initial, index)
+  if degree > 0
+    set value = topology.bound(value + topology.step_cap(topology.dampen(total / degree - value)))
+  end
+  return value
+end
+
+export function diffuse(initial: neural.Nodes, paths: Vector[Result[Vector[Int; 9]]; 11]) -> neural.Nodes
+  return neural.Nodes(n1 = diffused_value(initial, paths, 1), n2 = diffused_value(initial, paths, 2), n3 = diffused_value(initial, paths, 3), n4 = diffused_value(initial, paths, 4), n5 = diffused_value(initial, paths, 5), n6 = diffused_value(initial, paths, 6), n7 = diffused_value(initial, paths, 7), n8 = diffused_value(initial, paths, 8), n9 = diffused_value(initial, paths, 9))
+end
+
+function combined_value(initial: neural.Nodes, layers: Vector[neural.Nodes; 5], playbook: neural.Nodes, index: Int) -> Real
+  var total: Real = overlay.at(playbook, index)
+  for layer in layers limit 5
+    set total = total + overlay.at(layer, index)
+  end
+  return topology.bound(overlay.at(initial, index) + topology.step_cap(topology.dampen(total / 6 - overlay.at(initial, index))))
+end
+
+export function combine(initial: neural.Nodes, layers: Vector[neural.Nodes; 5], playbook: neural.Nodes, admitted: Bool) -> neural.Nodes
+  var result: neural.Nodes = overlay.combine(initial, layers)
+  if admitted
+    set result = neural.Nodes(n1 = combined_value(initial, layers, playbook, 1), n2 = combined_value(initial, layers, playbook, 2), n3 = combined_value(initial, layers, playbook, 3), n4 = combined_value(initial, layers, playbook, 4), n5 = combined_value(initial, layers, playbook, 5), n6 = combined_value(initial, layers, playbook, 6), n7 = combined_value(initial, layers, playbook, 7), n8 = combined_value(initial, layers, playbook, 8), n9 = combined_value(initial, layers, playbook, 9))
+  end
+  return result
+end

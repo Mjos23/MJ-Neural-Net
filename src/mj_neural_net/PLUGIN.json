@@ -1,0 +1,80 @@
+{
+  "name": "MJ Neural Net",
+  "id": "mj.neural.net",
+  "version": "0.1.0",
+  "status": "PROVISIONAL",
+  "api": "mj_neural_net:compose",
+  "cli": "mj-neural-net",
+  "source": "source/neural.bangel",
+  "language": "Bangel/1.0",
+  "compiler": "Elsa/1",
+  "ir": "JP-IR/1",
+  "runtime": "Joanna/1",
+  "marker": {
+    "name": "r0",
+    "profile": "MJ-Neural-r0/0.1.0",
+    "status": "PROVISIONAL",
+    "mapped_to_R0": false
+  },
+  "reference_colors": [
+    "Teal",
+    "Purple",
+    "Blue"
+  ],
+  "paper_map": "docs/PAPER-REFERENCES.json",
+  "pathway_approval": "SOURCE_REFERENCE_GEOMETRY_WITH_NEW_ENGINEERED_DIFFUSION",
+  "capabilities": [],
+  "physical_actuation_allowed": false,
+  "live_trading_allowed": false,
+  "biological_validation": false,
+  "distribution": "mj-neural-net",
+  "dependency": "bangel-language==0.2.0rc1",
+  "http": {
+    "profile": "MJ-Neural-Net-HTTP/0.1.0",
+    "factory": "mj_neural_net:create_app",
+    "routes": [
+      "GET /v1/profile",
+      "GET /v1/catalog",
+      "POST /v1/evaluate",
+      "POST /v1/overlay",
+      "POST /v1/compose"
+    ],
+    "server_started": false
+  },
+  "baseline": {
+    "name": "MJ-Bangel-Neural-Network-Plugin",
+    "repository": "Mjos23/bangel-language",
+    "commit": "8aa890baf101596220a6a3e26f76e0e0bebb942b",
+    "source_sha256": "39b91c4ac89a15eb6267ae38436d186a1ffec370205637880cc60af9adcc0d9e",
+    "status": "CLONED_BASELINE"
+  },
+  "compatibility_api": "mj_neural_net:evaluate",
+  "sources": [
+    "source/neural.bangel",
+    "source/overlay.bangel",
+    "source/playbook.bangel"
+  ],
+  "request_profile": "MJ-Neural-Net/0.1.0",
+  "overlay_profile": "MJ-Neural-Overlay/0.1.0",
+  "dependencies": [
+    "bangel-language==0.2.0rc1",
+    "mj-memory-recall==0.1.0"
+  ],
+  "diagram_catalog": "data/teal-diagrams.json",
+  "teal_source_mappings": "data/teal-mappings.json",
+  "source_coverage": {
+    "teal_papers": 500,
+    "yellow_diagrams": 100,
+    "distinct_picture_templates": 5,
+    "approved_traversal_claim": false
+  },
+  "optional_playbook_layer": {
+    "profile": "MJ-Neural-Playbook-Layer/0.1.0",
+    "source": "source/playbook.bangel",
+    "dependency_native_source": "mj_memory_recall/source/recall.bangel",
+    "actors": 11,
+    "samples_per_actor": 9,
+    "adjacent_pairs": 88,
+    "requires": "MATCHED_MEMORY_AND_WHOLE_ENVELOPE_PASS"
+  }
+}

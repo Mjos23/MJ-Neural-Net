@@ -1,0 +1,4 @@
+include LICENSE README.md
+recursive-include tests *.py *.json
+recursive-include src/mj_neural_net *.json *.md *.bangel
+recursive-include tools *.py

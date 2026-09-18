@@ -1,0 +1,397 @@
+bangel 1.0
+module mj.neural
+effects pure
+import std.math
+import std.vector
+import std.topology
+
+# MJ-Bangel-Neural/0.1.0. Project model, not hippocampal biology.
+# Blue BP-ALG-003/008; Purple PP-003/008; Teal TP-003/008.
+export record Nodes
+  n1: Real
+  n2: Real
+  n3: Real
+  n4: Real
+  n5: Real
+  n6: Real
+  n7: Real
+  n8: Real
+  n9: Real
+end
+export record Weights
+  n1: Nodes
+  n2: Nodes
+  n3: Nodes
+  n4: Nodes
+  n5: Nodes
+  n6: Nodes
+  n7: Nodes
+  n8: Nodes
+  n9: Nodes
+end
+export enum Feature
+  Missing(reason: Text)
+  Known(value: Real)
+end
+export record Memory
+  id: Text
+  pattern: Nodes
+  entity: Text
+  relation: Text
+  context: Text
+end
+export record Retrieval
+  candidate: Text
+  entity: Text
+  relation: Text
+  context: Text
+  score: Real
+  margin: Real
+  available: Bool
+end
+export record Transition
+  previous: Int
+  following: Int
+end
+export record Path
+  id: Text
+  nodes: Vector[Int; 9]
+end
+export record Placement
+  path: Path
+  score: Real
+  support: Int
+end
+export record KernelReview
+  promoted: Bool
+  evaluated: Bool
+  prior_loss: Real
+  candidate_loss: Real
+end
+
+# All node access below is internal, using the closed 1..9 node domain.
+function node(values: Nodes, index: Int) -> Real
+  var result: Real = 0.0
+  if index == 1
+    set result = values.n1
+  end
+  if index == 2
+    set result = values.n2
+  end
+  if index == 3
+    set result = values.n3
+  end
+  if index == 4
+    set result = values.n4
+  end
+  if index == 5
+    set result = values.n5
+  end
+  if index == 6
+    set result = values.n6
+  end
+  if index == 7
+    set result = values.n7
+  end
+  if index == 8
+    set result = values.n8
+  end
+  if index == 9
+    set result = values.n9
+  end
+  return result
+end
+function row(weights: Weights, index: Int) -> Nodes
+  var result: Nodes = weights.n1
+  if index == 2
+    set result = weights.n2
+  end
+  if index == 3
+    set result = weights.n3
+  end
+  if index == 4
+    set result = weights.n4
+  end
+  if index == 5
+    set result = weights.n5
+  end
+  if index == 6
+    set result = weights.n6
+  end
+  if index == 7
+    set result = weights.n7
+  end
+  if index == 8
+    set result = weights.n8
+  end
+  if index == 9
+    set result = weights.n9
+  end
+  return result
+end
+function select(old: Real, replacement: Real, index: Int, target: Int) -> Real
+  var result: Real = old
+  if index == target
+    set result = replacement
+  end
+  return result
+end
+function replace(values: Nodes, index: Int, replacement: Real) -> Nodes
+  return Nodes(n1 = select(values.n1, replacement, index, 1), n2 = select(values.n2, replacement, index, 2), n3 = select(values.n3, replacement, index, 3), n4 = select(values.n4, replacement, index, 4), n5 = select(values.n5, replacement, index, 5), n6 = select(values.n6, replacement, index, 6), n7 = select(values.n7, replacement, index, 7), n8 = select(values.n8, replacement, index, 8), n9 = select(values.n9, replacement, index, 9))
+end
+function dot(a: Nodes, b: Nodes) -> Real
+  return a.n1 * b.n1 + a.n2 * b.n2 + a.n3 * b.n3 + a.n4 * b.n4 + a.n5 * b.n5 + a.n6 * b.n6 + a.n7 * b.n7 + a.n8 * b.n8 + a.n9 * b.n9
+end
+
+# Hebbian training: w_ij = sum_m p_mi*p_mj / (9*M); w_ii = 0.
+# Stored patterns and weight arithmetic remain Bangel source.
+function weight(memories: Vector[Memory], i: Int, j: Int) -> Real
+  var total: Real = 0.0
+  if i != j and vector.length(memories) > 0
+    for memory in memories limit 4
+      set total = total + node(memory.pattern, i) * node(memory.pattern, j)
+    end
+    set total = total / (9 * vector.length(memories))
+  end
+  return total
+end
+function train_row(memories: Vector[Memory], i: Int) -> Nodes
+  return Nodes(n1 = weight(memories, i, 1), n2 = weight(memories, i, 2), n3 = weight(memories, i, 3), n4 = weight(memories, i, 4), n5 = weight(memories, i, 5), n6 = weight(memories, i, 6), n7 = weight(memories, i, 7), n8 = weight(memories, i, 8), n9 = weight(memories, i, 9))
+end
+export function train(memories: Vector[Memory]) -> Weights
+  return Weights(n1 = train_row(memories, 1), n2 = train_row(memories, 2), n3 = train_row(memories, 3), n4 = train_row(memories, 4), n5 = train_row(memories, 5), n6 = train_row(memories, 6), n7 = train_row(memories, 7), n8 = train_row(memories, 8), n9 = train_row(memories, 9))
+end
+
+# Missing observations remain Feature.Missing. A separate model activation
+# starts at zero; it is never converted into an observed zero or a known cue.
+export function known_count(cue: Vector[Feature; 9]) -> Int
+  var count: Int = 0
+  for feature in cue limit 9
+    match feature
+      case Feature.Known(value)
+        set count = count + 1
+      case Feature.Missing(reason)
+        set count = count
+    end
+  end
+  return count
+end
+export function initialize(cue: Vector[Feature; 9]) -> Nodes
+  var state: Nodes = Nodes(n1 = 0.0, n2 = 0.0, n3 = 0.0, n4 = 0.0, n5 = 0.0, n6 = 0.0, n7 = 0.0, n8 = 0.0, n9 = 0.0)
+  var index: Int = 1
+  for feature in cue limit 9
+    match feature
+      case Feature.Known(value)
+        set state = replace(state, index, value)
+      case Feature.Missing(reason)
+        set state = state
+    end
+    set index = index + 1
+  end
+  return state
+end
+export function activation_step(current: Real, field: Real, first: Bool) -> Real
+  var target: Real = current
+  if field > 0.0
+    set target = 0.9
+  end
+  if field < 0.0
+    set target = -0.9
+  end
+  var delta: Real = topology.dampen(target - current)
+  if first
+    set delta = topology.step_cap(delta)
+  end
+  return topology.bound(current + delta)
+end
+export function layer(weights: Weights, initial: Nodes, path: Path, first_layer: Bool) -> Nodes
+  var state: Nodes = initial
+  for sweep in [1, 2, 3, 4] limit 4
+    for index in path.nodes limit 9
+      let field = dot(row(weights, index), state)
+      let updated = activation_step(node(state, index), field, first_layer and sweep == 1)
+      set state = replace(state, index, updated)
+    end
+  end
+  return state
+end
+function polarity_agrees(a: Real, b: Real) -> Real
+  var score: Real = 0.0
+  if (a > 0.0 and b > 0.0) or (a < 0.0 and b < 0.0)
+    set score = 1.0
+  end
+  return score
+end
+function similarity(a: Nodes, b: Nodes) -> Real
+  return (polarity_agrees(a.n1, b.n1) + polarity_agrees(a.n2, b.n2) + polarity_agrees(a.n3, b.n3) + polarity_agrees(a.n4, b.n4) + polarity_agrees(a.n5, b.n5) + polarity_agrees(a.n6, b.n6) + polarity_agrees(a.n7, b.n7) + polarity_agrees(a.n8, b.n8) + polarity_agrees(a.n9, b.n9)) / 9
+end
+export function retrieve(memories: Vector[Memory], state: Nodes, known: Int) -> Retrieval
+  var best: Real = -1.0
+  var second: Real = -1.0
+  var candidate: Text = ""
+  var entity: Text = ""
+  var relation: Text = ""
+  var context: Text = ""
+  for memory in memories limit 4
+    let score = similarity(memory.pattern, state)
+    if score > best
+      set second = best
+      set best = score
+      set candidate = memory.id
+      set entity = memory.entity
+      set relation = memory.relation
+      set context = memory.context
+    else
+      if score > second
+        set second = score
+      end
+    end
+  end
+  let margin = best - math.max(second, 0.0)
+  return Retrieval(candidate = candidate, entity = entity, relation = relation, context = context,
+    score = best, margin = margin, available = known >= 3 and best >= 0.8 and margin >= 0.2)
+end
+export function relation_matches(candidate: Retrieval, entity: Result[Text], relation: Result[Text], context: Result[Text]) -> Bool
+  var entity_ok: Bool = false
+  var relation_ok: Bool = false
+  var context_ok: Bool = false
+  match entity
+    case Result.Ok(value)
+      set entity_ok = value == candidate.entity
+    case Result.Err(error)
+      set entity_ok = false
+  end
+  match relation
+    case Result.Ok(value)
+      set relation_ok = value == candidate.relation
+    case Result.Err(error)
+      set relation_ok = false
+  end
+  match context
+    case Result.Ok(value)
+      set context_ok = value == candidate.context
+    case Result.Err(error)
+      set context_ok = false
+  end
+  return candidate.available and entity_ok and relation_ok and context_ok
+end
+
+# F-008: prediction influence decays along the nine-node path.
+# Multiplication expresses powers on the frozen grammar without adding '^'.
+export function prediction_gain(ordinal: Int) -> Real
+  var gain: Real = 0.1
+  for step in [1, 2, 3, 4, 5, 6, 7, 8] limit 8
+    if step < ordinal
+      set gain = gain * 2 / 3
+    end
+  end
+  return gain
+end
+function probability(history: Vector[Transition], previous: Int, following: Int) -> Real
+  var matches: Int = 0
+  var total: Int = 0
+  for item in history limit 64
+    if item.previous == previous
+      set total = total + 1
+      if item.following == following
+        set matches = matches + 1
+      end
+    end
+  end
+  return (matches + 1) / (total + 9)
+end
+# Fit the command probability table once; reuse it in Brier/path evaluation.
+# Weights is the existing 9x9 scalar graph container. These are transition
+# probabilities and remain separate from the associative network weights.
+function command_row(history: Vector[Transition], previous: Int) -> Nodes
+  return Nodes(n1 = probability(history, previous, 1), n2 = probability(history, previous, 2), n3 = probability(history, previous, 3), n4 = probability(history, previous, 4), n5 = probability(history, previous, 5), n6 = probability(history, previous, 6), n7 = probability(history, previous, 7), n8 = probability(history, previous, 8), n9 = probability(history, previous, 9))
+end
+export function train_commands(history: Vector[Transition]) -> Weights
+  return Weights(n1 = command_row(history, 1), n2 = command_row(history, 2), n3 = command_row(history, 3), n4 = command_row(history, 4), n5 = command_row(history, 5), n6 = command_row(history, 6), n7 = command_row(history, 7), n8 = command_row(history, 8), n9 = command_row(history, 9))
+end
+export function candidate_commands(prior: Weights, history: Vector[Transition], has_updates: Bool) -> Weights
+  var result: Weights = prior
+  if has_updates
+    set result = train_commands(history)
+  end
+  return result
+end
+function model_probability(command_weights: Weights, previous: Int, following: Int) -> Real
+  return node(row(command_weights, previous), following)
+end
+function support(history: Vector[Transition], previous: Int) -> Int
+  var count: Int = 0
+  for item in history limit 64
+    if item.previous == previous
+      set count = count + 1
+    end
+  end
+  return count
+end
+function brier(command_weights: Weights, validation: Vector[Transition]) -> Real
+  var loss: Real = 0.0
+  for item in validation limit 16
+    for following in [1, 2, 3, 4, 5, 6, 7, 8, 9] limit 9
+      var target: Real = 0.0
+      if following == item.following
+        set target = 1.0
+      end
+      let residual = model_probability(command_weights, item.previous, following) - target
+      set loss = loss + residual * residual
+    end
+  end
+  return loss / math.max(vector.length(validation), 1)
+end
+export function review_update(prior: Weights, candidate: Weights, validation: Vector[Transition], has_updates: Bool) -> KernelReview
+  var before: Real = 0.0
+  var after: Real = 0.0
+  var evaluated: Bool = false
+  if vector.length(validation) >= 3 and has_updates
+    set before = brier(prior, validation)
+    set after = brier(candidate, validation)
+    set evaluated = true
+  end
+  return KernelReview(promoted = evaluated and after < before, evaluated = evaluated,
+    prior_loss = before, candidate_loss = after)
+end
+function path_score(command_weights: Weights, previous: Int, path: Path) -> Real
+  var score: Real = 0.0
+  var origin: Int = previous
+  var ordinal: Int = 1
+  for following in path.nodes limit 9
+    set score = score + prediction_gain(ordinal) * model_probability(command_weights, origin, following)
+    set origin = following
+    set ordinal = ordinal + 1
+  end
+  return score
+end
+export function place(command_weights: Weights, history: Vector[Transition], previous: Int, paths: Vector[Path]) -> Placement
+  # The host supplies a nonempty, reviewed simulation catalog of complete paths.
+  var best_path: Path = Path(id = "UNAVAILABLE", nodes = [1, 2, 3, 6, 5, 4, 7, 8, 9])
+  var best: Real = -1.0
+  for path in paths limit 5
+    let score = path_score(command_weights, previous, path)
+    if score > best
+      set best = score
+      set best_path = path
+    end
+  end
+  return Placement(path = best_path, score = best, support = support(history, previous))
+end
+export function last_node(path: Path) -> Int
+  var last: Int = 0
+  for index in path.nodes limit 9
+    set last = index
+  end
+  return last
+end
+export function downstream_status(matched: Bool, reviewed: Bool, verdict: Text) -> Text
+  var status: Text = "DOWNSTREAM_HOLD"
+  if matched and reviewed and verdict == "PASS"
+    set status = "MATCH_FOR_REVIEW"
+  end
+  if verdict == "DENY" and reviewed
+    set status = "DOWNSTREAM_DENY"
+  end
+  return status
+end

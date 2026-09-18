@@ -1,0 +1,12 @@
+{
+  "profile": "MJ-Neural-Pathways/0.1.0",
+  "status": "SIMULATION_REFERENCE",
+  "references": ["BP-ALG-003", "BP-ALG-008", "PP-003", "PP-008", "TP-003", "TP-008", "TP-393"],
+  "paths": [
+    {"id": "north-west", "nodes": [1, 2, 3, 6, 5, 4, 7, 8, 9]},
+    {"id": "south-east", "nodes": [9, 8, 7, 4, 5, 6, 3, 2, 1]},
+    {"id": "north-east", "nodes": [3, 2, 1, 4, 5, 6, 9, 8, 7]},
+    {"id": "south-west", "nodes": [7, 8, 9, 6, 5, 4, 1, 2, 3]},
+    {"id": "center", "nodes": [5, 2, 1, 4, 7, 8, 9, 6, 3]}
+  ]
+}

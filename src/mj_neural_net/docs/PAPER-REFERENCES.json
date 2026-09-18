@@ -1,0 +1,149 @@
+{
+  "profile": "MJ-Neural-Paper-References/0.1.0",
+  "collections": [
+    {
+      "color": "Blue",
+      "filename": "02-Blue-Papers.pdf",
+      "collection_sha256": "482bb6c49c936be504fbc7230dadeb754d82207d8375719515c213a3f5216581",
+      "pages": 302,
+      "read_scope": "Complete text searched; relevant rule pages read; Purple PP-008 visually checked",
+      "references": [
+        {
+          "id": "BP-ALG-001",
+          "collection_page": 3
+        },
+        {
+          "id": "BP-ALG-002",
+          "collection_page": 4
+        },
+        {
+          "id": "BP-ALG-003",
+          "collection_page": 5
+        },
+        {
+          "id": "BP-ALG-007",
+          "collection_page": 9
+        },
+        {
+          "id": "BP-ALG-008",
+          "collection_page": 10
+        }
+      ]
+    },
+    {
+      "color": "Purple",
+      "filename": "05-Purple-Papers.pdf",
+      "collection_sha256": "5ed5faa20c4f1c87c3e006f8b0b20dfb91b07b215c9094c2274bf98be999bc93",
+      "pages": 302,
+      "read_scope": "Complete text searched; relevant rule pages read; Purple PP-008 visually checked",
+      "references": [
+        {
+          "id": "PP-001",
+          "collection_page": 3
+        },
+        {
+          "id": "PP-002",
+          "collection_page": 4
+        },
+        {
+          "id": "PP-003",
+          "collection_page": 5
+        },
+        {
+          "id": "PP-007",
+          "collection_page": 9
+        },
+        {
+          "id": "PP-008",
+          "collection_page": 10
+        }
+      ]
+    },
+    {
+      "color": "Teal",
+      "filename": "03-Teal-Papers.pdf",
+      "collection_sha256": "2ec0b7f8b9f649a08fb755dbff75c847ffc896029031772a950de360298fec83",
+      "pages": 502,
+      "read_scope": "Complete text searched; relevant rule pages read; Purple PP-008 visually checked",
+      "references": [
+        {
+          "id": "TP-001",
+          "collection_page": 3
+        },
+        {
+          "id": "TP-002",
+          "collection_page": 4
+        },
+        {
+          "id": "TP-003",
+          "collection_page": 5
+        },
+        {
+          "id": "TP-007",
+          "collection_page": 9
+        },
+        {
+          "id": "TP-008",
+          "collection_page": 10
+        },
+        {
+          "id": "TP-393",
+          "collection_page": 395
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "formula": "F-003",
+      "ids": [
+        "BP-ALG-003",
+        "PP-003",
+        "TP-003"
+      ],
+      "implementation": "Typed Feature.Missing plus preserved observation mask; missing relations HOLD; missing review HOLD"
+    },
+    {
+      "formula": "F-008",
+      "ids": [
+        "BP-ALG-008",
+        "PP-008",
+        "TP-008"
+      ],
+      "implementation": "prediction_gain and path_score, g_i=0.1*(2/3)^(i-1)"
+    },
+    {
+      "formula": "F-001 / F-002",
+      "ids": [
+        "BP-ALG-001",
+        "BP-ALG-002",
+        "PP-001",
+        "PP-002",
+        "TP-001",
+        "TP-002",
+        "TP-393"
+      ],
+      "implementation": "Preserve upstream runtime transition metadata and separate MJ authority; lowercase r0 is a new namespaced provisional marker"
+    },
+    {
+      "formula": "F-007",
+      "ids": [
+        "BP-ALG-007",
+        "PP-007",
+        "TP-007"
+      ],
+      "implementation": "REFERENCE_ONLY: 3-of-5 and three qualified windows are not replaced by our held-out Brier update rule"
+    }
+  ],
+  "new_model_choices": [
+    "Hebbian associative weights; three tied-weight recurrent layers of nine units",
+    "Finite nine-command bigram model with Laplace smoothing",
+    "Five proposed adjacent nine-node simulation paths; paper provenance does not approve these sequences",
+    "Held-out Brier comparison with at least three validation records; this is not F-007 qualification",
+    "At least three known features, similarity >=0.8, unique-winner margin >=0.2",
+    "Exact entity/relation/context filter, an engineered CA2-inspired gate"
+  ],
+  "full_paper_implementation": false,
+  "biological_validation": false,
+  "pathway_approval": "UNVERIFIED_SIMULATION_ONLY"
+}

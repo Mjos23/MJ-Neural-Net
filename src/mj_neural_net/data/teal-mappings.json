@@ -1,0 +1,4520 @@
+{
+  "schema": "MJ-TEAL-SOURCE-MAPPINGS/1",
+  "source": {
+    "path": "official-docs/teal-pages/TEAL-PAGE-SOURCE-ENTRIES-001.json",
+    "bytes": 530001,
+    "sha256": "59b1fcf23bba825ea36a472a413ce030d8dc8e88705198b9fd5298ae424840a8"
+  },
+  "entries": [
+    {
+      "id": "TP-001",
+      "title": "R1 transition",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-001"
+      ]
+    },
+    {
+      "id": "TP-002",
+      "title": "R2 transition",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-002"
+      ]
+    },
+    {
+      "id": "TP-003",
+      "title": "Unknown invariant",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-003"
+      ]
+    },
+    {
+      "id": "TP-004",
+      "title": "Mass inflection",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-004"
+      ]
+    },
+    {
+      "id": "TP-005",
+      "title": "Noise smoothing",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-005"
+      ]
+    },
+    {
+      "id": "TP-006",
+      "title": "Trend estimator",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-006"
+      ]
+    },
+    {
+      "id": "TP-007",
+      "title": "Anti-spike gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-007"
+      ]
+    },
+    {
+      "id": "TP-008",
+      "title": "Prediction gain",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-008"
+      ]
+    },
+    {
+      "id": "TP-009",
+      "title": "Covariance update",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-009"
+      ]
+    },
+    {
+      "id": "TP-010",
+      "title": "Shadow depth",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-010"
+      ]
+    },
+    {
+      "id": "TP-011",
+      "title": "Shadow growth rate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-011"
+      ]
+    },
+    {
+      "id": "TP-012",
+      "title": "Front-end allocation / Front-end reserve",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-012"
+      ]
+    },
+    {
+      "id": "TP-013",
+      "title": "Bounded allocation update",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-013"
+      ]
+    },
+    {
+      "id": "TP-014",
+      "title": "Request memory",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-014"
+      ]
+    },
+    {
+      "id": "TP-015",
+      "title": "Memory preallocation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-015"
+      ]
+    },
+    {
+      "id": "TP-016",
+      "title": "Hard flush",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-016"
+      ]
+    },
+    {
+      "id": "TP-017",
+      "title": "Charge balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-017"
+      ]
+    },
+    {
+      "id": "TP-018",
+      "title": "Capacitor energy",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-018"
+      ]
+    },
+    {
+      "id": "TP-019",
+      "title": "General stored energy",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-019"
+      ]
+    },
+    {
+      "id": "TP-020",
+      "title": "Energy balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-020"
+      ]
+    },
+    {
+      "id": "TP-021",
+      "title": "Mass balance / EVE screen balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-021"
+      ]
+    },
+    {
+      "id": "TP-022",
+      "title": "EVE evaporation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-022"
+      ]
+    },
+    {
+      "id": "TP-023",
+      "title": "Upward force",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-023"
+      ]
+    },
+    {
+      "id": "TP-024",
+      "title": "Coordinate mapping",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-024"
+      ]
+    },
+    {
+      "id": "TP-025",
+      "title": "Sister physical umbrella count",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-025"
+      ]
+    },
+    {
+      "id": "TP-026",
+      "title": "Byte balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-026"
+      ]
+    },
+    {
+      "id": "TP-027",
+      "title": "Residual consequence",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-027"
+      ]
+    },
+    {
+      "id": "TP-028",
+      "title": "Protected liquidity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-028"
+      ]
+    },
+    {
+      "id": "TP-029",
+      "title": "Investable surplus",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-029"
+      ]
+    },
+    {
+      "id": "TP-030",
+      "title": "Risk-capital ceiling",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-030"
+      ]
+    },
+    {
+      "id": "TP-031",
+      "title": "Portfolio concentration",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-031"
+      ]
+    },
+    {
+      "id": "TP-032",
+      "title": "Portfolio variance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-032"
+      ]
+    },
+    {
+      "id": "TP-033",
+      "title": "Capital friction",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-033"
+      ]
+    },
+    {
+      "id": "TP-034",
+      "title": "Opportunity lower bound",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-034"
+      ]
+    },
+    {
+      "id": "TP-035",
+      "title": "Abundance objective",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-035"
+      ]
+    },
+    {
+      "id": "TP-036",
+      "title": "SHIVAS eligible value",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-036"
+      ]
+    },
+    {
+      "id": "TP-037",
+      "title": "SHIVAS ceiling",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-037"
+      ]
+    },
+    {
+      "id": "TP-038",
+      "title": "MK state model",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-038"
+      ]
+    },
+    {
+      "id": "TP-039",
+      "title": "Dimensional integrity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-039"
+      ]
+    },
+    {
+      "id": "TP-040",
+      "title": "Conservation residual",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-040"
+      ]
+    },
+    {
+      "id": "TP-041",
+      "title": "Pearl simulation ellipsoid volume",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-041"
+      ]
+    },
+    {
+      "id": "TP-042",
+      "title": "Pearl simulation surface-area approximation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-042"
+      ]
+    },
+    {
+      "id": "TP-043",
+      "title": "Pearl simulation exposure ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-043"
+      ]
+    },
+    {
+      "id": "TP-044",
+      "title": "Pearl simulation capacity slack",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-044"
+      ]
+    },
+    {
+      "id": "TP-045",
+      "title": "Pearl simulation saturation ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-045"
+      ]
+    },
+    {
+      "id": "TP-046",
+      "title": "Pearl simulation object count",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-046"
+      ]
+    },
+    {
+      "id": "TP-047",
+      "title": "Pearl simulation accounting balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-047"
+      ]
+    },
+    {
+      "id": "TP-048",
+      "title": "Pearl simulated transfer opportunity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-048"
+      ]
+    },
+    {
+      "id": "TP-049",
+      "title": "Pearl simulated regeneration vector",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-049"
+      ]
+    },
+    {
+      "id": "TP-050",
+      "title": "Pearl acoustic simulation wavelength",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-050"
+      ]
+    },
+    {
+      "id": "TP-051",
+      "title": "Pearl acoustic simulation intensity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-051"
+      ]
+    },
+    {
+      "id": "TP-052",
+      "title": "Pearl acoustic simulation energy",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-052"
+      ]
+    },
+    {
+      "id": "TP-053",
+      "title": "Pearl acoustic simulation observability gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-053"
+      ]
+    },
+    {
+      "id": "TP-054",
+      "title": "Pearl acoustic simulation signal-to-noise",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-054"
+      ]
+    },
+    {
+      "id": "TP-055",
+      "title": "Pearl acoustic simulation transfer function",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-055"
+      ]
+    },
+    {
+      "id": "TP-056",
+      "title": "Pearl acoustic simulation setpoint / Bounded Pearl acoustic simulation adjustment",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-056"
+      ]
+    },
+    {
+      "id": "TP-057",
+      "title": "Pearl simulation registry reconciliation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-057"
+      ]
+    },
+    {
+      "id": "TP-058",
+      "title": "Bangel Sheet cell state",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-058"
+      ]
+    },
+    {
+      "id": "TP-059",
+      "title": "Affected dependency closure",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-059"
+      ]
+    },
+    {
+      "id": "TP-060",
+      "title": "Incremental recompute cost",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-060"
+      ]
+    },
+    {
+      "id": "TP-061",
+      "title": "Concurrent edit arrival",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-061"
+      ]
+    },
+    {
+      "id": "TP-062",
+      "title": "Spreadsheet service utilization",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-062"
+      ]
+    },
+    {
+      "id": "TP-063",
+      "title": "Spreadsheet worker requirement",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-063"
+      ]
+    },
+    {
+      "id": "TP-064",
+      "title": "Recalculation latency",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-064"
+      ]
+    },
+    {
+      "id": "TP-065",
+      "title": "Spreadsheet data cost",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-065"
+      ]
+    },
+    {
+      "id": "TP-066",
+      "title": "Pearl simulation partition objective",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-066"
+      ]
+    },
+    {
+      "id": "TP-067",
+      "title": "Sheet revision root",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-067"
+      ]
+    },
+    {
+      "id": "TP-068",
+      "title": "Audit-particle completeness",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-068"
+      ]
+    },
+    {
+      "id": "TP-069",
+      "title": "Iterative recalculation stability",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-069"
+      ]
+    },
+    {
+      "id": "TP-070",
+      "title": "Revision conflict gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-070"
+      ]
+    },
+    {
+      "id": "TP-071",
+      "title": "Freshness age",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-071"
+      ]
+    },
+    {
+      "id": "TP-072",
+      "title": "Staleness gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-072"
+      ]
+    },
+    {
+      "id": "TP-073",
+      "title": "Data-performance correlation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-073"
+      ]
+    },
+    {
+      "id": "TP-074",
+      "title": "Silo unification gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-074"
+      ]
+    },
+    {
+      "id": "TP-075",
+      "title": "Formula verification residual",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-075"
+      ]
+    },
+    {
+      "id": "TP-076",
+      "title": "Operational intake completeness",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-076"
+      ]
+    },
+    {
+      "id": "TP-077",
+      "title": "Spreadsheet capacity gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-077"
+      ]
+    },
+    {
+      "id": "TP-078",
+      "title": "First-noise rectangle height",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-078"
+      ]
+    },
+    {
+      "id": "TP-079",
+      "title": "Reference gas density",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-079"
+      ]
+    },
+    {
+      "id": "TP-080",
+      "title": "24 mg reference volume",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-080"
+      ]
+    },
+    {
+      "id": "TP-081",
+      "title": "Rectangle depth",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-081"
+      ]
+    },
+    {
+      "id": "TP-082",
+      "title": "Cone height ratio / Cone top-width ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-082"
+      ]
+    },
+    {
+      "id": "TP-083",
+      "title": "Cone area by height",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-083"
+      ]
+    },
+    {
+      "id": "TP-084",
+      "title": "Cone partial volume",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-084"
+      ]
+    },
+    {
+      "id": "TP-085",
+      "title": "Full conical-frustum volume",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-085"
+      ]
+    },
+    {
+      "id": "TP-086",
+      "title": "Pearl cone-top anchor",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-086"
+      ]
+    },
+    {
+      "id": "TP-087",
+      "title": "Observed gas mass",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-087"
+      ]
+    },
+    {
+      "id": "TP-088",
+      "title": "Gas mass-flow from height",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-088"
+      ]
+    },
+    {
+      "id": "TP-089",
+      "title": "Observed gas-height predictor",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-089"
+      ]
+    },
+    {
+      "id": "TP-090",
+      "title": "Gas net-force balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-090"
+      ]
+    },
+    {
+      "id": "TP-091",
+      "title": "Buoyancy force / Drag force",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-091"
+      ]
+    },
+    {
+      "id": "TP-092",
+      "title": "Flow continuity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-092"
+      ]
+    },
+    {
+      "id": "TP-093",
+      "title": "Residual reservoir capacity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-093"
+      ]
+    },
+    {
+      "id": "TP-094",
+      "title": "Umbrella/EVE/reservoir balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-094"
+      ]
+    },
+    {
+      "id": "TP-095",
+      "title": "Containment modification predicate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-095"
+      ]
+    },
+    {
+      "id": "TP-096",
+      "title": "Rear outlet elevation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-096"
+      ]
+    },
+    {
+      "id": "TP-097",
+      "title": "Pearl simulation exclusion radius",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-097"
+      ]
+    },
+    {
+      "id": "TP-098",
+      "title": "Outward-tangential outlet direction",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-098"
+      ]
+    },
+    {
+      "id": "TP-099",
+      "title": "Outside-circle outlet path",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-099"
+      ]
+    },
+    {
+      "id": "TP-100",
+      "title": "Reservoir volume balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-100"
+      ]
+    },
+    {
+      "id": "TP-101",
+      "title": "Typed reservoir quantity balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-101"
+      ]
+    },
+    {
+      "id": "TP-102",
+      "title": "Required buffer volume",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-102"
+      ]
+    },
+    {
+      "id": "TP-103",
+      "title": "Outlet area lower bound",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-103"
+      ]
+    },
+    {
+      "id": "TP-104",
+      "title": "Circular outlet radius lower bound",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-104"
+      ]
+    },
+    {
+      "id": "TP-105",
+      "title": "Bounded drip impulse",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-105"
+      ]
+    },
+    {
+      "id": "TP-106",
+      "title": "Small-wave energy reference",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-106"
+      ]
+    },
+    {
+      "id": "TP-107",
+      "title": "Froude reference",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-107"
+      ]
+    },
+    {
+      "id": "TP-108",
+      "title": "Circular return-port area",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-108"
+      ]
+    },
+    {
+      "id": "TP-109",
+      "title": "Inward-tangential reentry components",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-109"
+      ]
+    },
+    {
+      "id": "TP-110",
+      "title": "Spiral compatibility ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-110"
+      ]
+    },
+    {
+      "id": "TP-111",
+      "title": "Return continuity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-111"
+      ]
+    },
+    {
+      "id": "TP-112",
+      "title": "Relative-frame velocity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-112"
+      ]
+    },
+    {
+      "id": "TP-113",
+      "title": "Frictional dissipation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-113"
+      ]
+    },
+    {
+      "id": "TP-114",
+      "title": "Recoverable friction-energy bound",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-114"
+      ]
+    },
+    {
+      "id": "TP-115",
+      "title": "Reservoir transaction gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-115"
+      ]
+    },
+    {
+      "id": "TP-116",
+      "title": "Re-entry swirl ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-116"
+      ]
+    },
+    {
+      "id": "TP-117",
+      "title": "Re-entry processing cycle",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-117"
+      ]
+    },
+    {
+      "id": "TP-118",
+      "title": "Perspective transform residual",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-118"
+      ]
+    },
+    {
+      "id": "TP-119",
+      "title": "Physical pressure-flow dissipation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-119"
+      ]
+    },
+    {
+      "id": "TP-120",
+      "title": "Information friction",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-120"
+      ]
+    },
+    {
+      "id": "TP-121",
+      "title": "Rotational setpoint damping",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-121"
+      ]
+    },
+    {
+      "id": "TP-122",
+      "title": "Rotational step cap",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-122"
+      ]
+    },
+    {
+      "id": "TP-123",
+      "title": "Outlet transfer conservation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-123"
+      ]
+    },
+    {
+      "id": "TP-124",
+      "title": "Re-entry recalculation vector",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-124"
+      ]
+    },
+    {
+      "id": "TP-125",
+      "title": "Re-entry admissibility predicate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-125"
+      ]
+    },
+    {
+      "id": "TP-126",
+      "title": "Uncertainty-aware Pearl reference clearance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-126"
+      ]
+    },
+    {
+      "id": "TP-127",
+      "title": "Outward angular-gap predicate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-127"
+      ]
+    },
+    {
+      "id": "TP-128",
+      "title": "Available outlet pressure",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-128"
+      ]
+    },
+    {
+      "id": "TP-129",
+      "title": "Outlet pressure margin",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-129"
+      ]
+    },
+    {
+      "id": "TP-130",
+      "title": "Minimum outlet grade / Selected positive outlet grade",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-130"
+      ]
+    },
+    {
+      "id": "TP-131",
+      "title": "Incompressible reference outlet flow",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-131"
+      ]
+    },
+    {
+      "id": "TP-132",
+      "title": "Mean outlet velocity",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-132"
+      ]
+    },
+    {
+      "id": "TP-133",
+      "title": "Weber number reference",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-133"
+      ]
+    },
+    {
+      "id": "TP-134",
+      "title": "Wave amplitude ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-134"
+      ]
+    },
+    {
+      "id": "TP-135",
+      "title": "Small-wave observation gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-135"
+      ]
+    },
+    {
+      "id": "TP-136",
+      "title": "Discrete reservoir inventory",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-136"
+      ]
+    },
+    {
+      "id": "TP-137",
+      "title": "Vector reservoir headroom",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-137"
+      ]
+    },
+    {
+      "id": "TP-138",
+      "title": "Vector reservoir admission / No same-cycle feedback predicate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-138"
+      ]
+    },
+    {
+      "id": "TP-139",
+      "title": "Solar/auxiliary/recovery input energy / Solar system energy conservation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-139"
+      ]
+    },
+    {
+      "id": "TP-140",
+      "title": "Instantaneous power balance / Conservative reserve margin",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-140"
+      ]
+    },
+    {
+      "id": "TP-141",
+      "title": "Path efficiency / Bounded storage state update",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-141"
+      ]
+    },
+    {
+      "id": "TP-142",
+      "title": "Thermal first-order update / Predicted bus voltage",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-142"
+      ]
+    },
+    {
+      "id": "TP-143",
+      "title": "Shared start/admission gate / Cross-profile transfer gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-143"
+      ]
+    },
+    {
+      "id": "TP-144",
+      "title": "Solar uncertainty propagation / Solar evidence-state transition",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-144"
+      ]
+    },
+    {
+      "id": "TP-145",
+      "title": "Phone-profile solar energy / Workload-aware power demand",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-145"
+      ]
+    },
+    {
+      "id": "TP-146",
+      "title": "Phone reserve duration / Phone energy deficit",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-146"
+      ]
+    },
+    {
+      "id": "TP-147",
+      "title": "Environment-dependent leakage",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-147"
+      ]
+    },
+    {
+      "id": "TP-148",
+      "title": "Wake energy accounting / Phone thermal margin",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-148"
+      ]
+    },
+    {
+      "id": "TP-149",
+      "title": "Useful work per delivered energy / Data-performance correlation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-149"
+      ]
+    },
+    {
+      "id": "TP-150",
+      "title": "Workload allocation update / Semiconductor scale map",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-150"
+      ]
+    },
+    {
+      "id": "TP-151",
+      "title": "Phone-profile evidence completeness / Marine solar-array energy",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-151"
+      ]
+    },
+    {
+      "id": "TP-152",
+      "title": "Marine propulsion/load power / Marine mission energy",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-152"
+      ]
+    },
+    {
+      "id": "TP-153",
+      "title": "Marine critical reserve duration / Marine DC bus balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-153"
+      ]
+    },
+    {
+      "id": "TP-154",
+      "title": "Precharge inrush reference",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-154"
+      ]
+    },
+    {
+      "id": "TP-155",
+      "title": "Wet/dry leakage ratio / Marine environment state vector",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-155"
+      ]
+    },
+    {
+      "id": "TP-156",
+      "title": "Vibration exposure / Recovered energy ceiling",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-156"
+      ]
+    },
+    {
+      "id": "TP-157",
+      "title": "Priority load shedding / Marine evidence and permit gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-157"
+      ]
+    },
+    {
+      "id": "TP-158",
+      "title": "Peaceful spacecraft solar energy / Avionics bus balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-158"
+      ]
+    },
+    {
+      "id": "TP-159",
+      "title": "Emergency reserve duration / Spacecraft thermal balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-159"
+      ]
+    },
+    {
+      "id": "TP-160",
+      "title": "Space-profile battery margin / Authenticated startup state",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-160"
+      ]
+    },
+    {
+      "id": "TP-161",
+      "title": "Fault isolation set / Redundant service availability",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-161"
+      ]
+    },
+    {
+      "id": "TP-162",
+      "title": "Propulsion-state coordination reference / High-energy emergency reserve",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-162"
+      ]
+    },
+    {
+      "id": "TP-163",
+      "title": "Non-weaponization gate / Rocket-profile evidence and permit gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-163"
+      ]
+    },
+    {
+      "id": "TP-164",
+      "title": "DRO founder lower marker / DRO alias conversion",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-164"
+      ]
+    },
+    {
+      "id": "TP-165",
+      "title": "DRO conservative R threshold / DRO upper spherical reference",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-165"
+      ]
+    },
+    {
+      "id": "TP-166",
+      "title": "DRO declared interval / DRO reference radius",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-166"
+      ]
+    },
+    {
+      "id": "TP-167",
+      "title": "DRO spherical reference volume / DRO interval ratio",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-167"
+      ]
+    },
+    {
+      "id": "TP-168",
+      "title": "DRO quantity count / DRO remainder",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-168"
+      ]
+    },
+    {
+      "id": "TP-169",
+      "title": "Pearl-node allocation count / DRO-Pearl handoff balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-169"
+      ]
+    },
+    {
+      "id": "TP-170",
+      "title": "DRO R-state gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-170"
+      ]
+    },
+    {
+      "id": "TP-171",
+      "title": "DRO R1 gate / DRO R2 gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-171"
+      ]
+    },
+    {
+      "id": "TP-172",
+      "title": "Optical wavelength / Photon energy",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-172"
+      ]
+    },
+    {
+      "id": "TP-173",
+      "title": "Photon count estimate / Optical coupling evidence",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-173"
+      ]
+    },
+    {
+      "id": "TP-174",
+      "title": "Optical admissibility / DRO collection rate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-174"
+      ]
+    },
+    {
+      "id": "TP-175",
+      "title": "DRO scale uncertainty / DRO interval classification",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-175"
+      ]
+    },
+    {
+      "id": "TP-176",
+      "title": "DRO capacity slack",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-176"
+      ]
+    },
+    {
+      "id": "TP-177",
+      "title": "DRO overflow vector / DRO ledger balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-177"
+      ]
+    },
+    {
+      "id": "TP-178",
+      "title": "DRO energy ledger / Available start energy lower bound",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-178"
+      ]
+    },
+    {
+      "id": "TP-179",
+      "title": "Start gate / Restart reserve",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-179"
+      ]
+    },
+    {
+      "id": "TP-180",
+      "title": "Solar contribution / Acoustic/noise contribution",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-180"
+      ]
+    },
+    {
+      "id": "TP-181",
+      "title": "Generic separation-work lower bound / Species availability",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-181"
+      ]
+    },
+    {
+      "id": "TP-182",
+      "title": "Conversion efficiency / Controlled logical release",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-182"
+      ]
+    },
+    {
+      "id": "TP-183",
+      "title": "DRO thermal gate / Semiconductor DRO charge balance",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-183"
+      ]
+    },
+    {
+      "id": "TP-184",
+      "title": "Semiconductor Pearl-node memory / Semiconductor wake-reserve gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-184"
+      ]
+    },
+    {
+      "id": "TP-185",
+      "title": "Semiconductor profile isolation / Lecanto byte-source digest",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-185"
+      ]
+    },
+    {
+      "id": "TP-186",
+      "title": "Lecanto pixel residual / Lecanto spectral residual",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-186"
+      ]
+    },
+    {
+      "id": "TP-187",
+      "title": "Lecanto provenance completeness / Lecanto intent hypothesis",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-187"
+      ]
+    },
+    {
+      "id": "TP-188",
+      "title": "Lecanto transformation gate / Lecanto reject gate",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-188"
+      ]
+    },
+    {
+      "id": "TP-189",
+      "title": "R8 command admissibility",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-ALG-189"
+      ]
+    },
+    {
+      "id": "TP-190",
+      "title": "MJ - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-001"
+      ]
+    },
+    {
+      "id": "TP-191",
+      "title": "Bangel - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-002"
+      ]
+    },
+    {
+      "id": "TP-192",
+      "title": "Elsa - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-003"
+      ]
+    },
+    {
+      "id": "TP-193",
+      "title": "JP - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-004"
+      ]
+    },
+    {
+      "id": "TP-194",
+      "title": "Mika / MK - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-005"
+      ]
+    },
+    {
+      "id": "TP-195",
+      "title": "JO - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-006"
+      ]
+    },
+    {
+      "id": "TP-196",
+      "title": "MJOS - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-007"
+      ]
+    },
+    {
+      "id": "TP-197",
+      "title": "Angels - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-008"
+      ]
+    },
+    {
+      "id": "TP-198",
+      "title": "Bellatrix - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-009"
+      ]
+    },
+    {
+      "id": "TP-199",
+      "title": "Sister - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-010"
+      ]
+    },
+    {
+      "id": "TP-200",
+      "title": "EVE - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-011"
+      ]
+    },
+    {
+      "id": "TP-201",
+      "title": "Mary / M3 - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-012"
+      ]
+    },
+    {
+      "id": "TP-202",
+      "title": "Mermaid - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-013"
+      ]
+    },
+    {
+      "id": "TP-203",
+      "title": "Shiva - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-014"
+      ]
+    },
+    {
+      "id": "TP-204",
+      "title": "Shekina - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-015"
+      ]
+    },
+    {
+      "id": "TP-205",
+      "title": "Belle - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-016"
+      ]
+    },
+    {
+      "id": "TP-206",
+      "title": "Lecanto - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-017"
+      ]
+    },
+    {
+      "id": "TP-207",
+      "title": "Moana - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-018"
+      ]
+    },
+    {
+      "id": "TP-208",
+      "title": "Aviator - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-019"
+      ]
+    },
+    {
+      "id": "TP-209",
+      "title": "CHI - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-020"
+      ]
+    },
+    {
+      "id": "TP-210",
+      "title": "WATER - Family Manifestation",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-FAM-021"
+      ]
+    },
+    {
+      "id": "TP-211",
+      "title": "JP_CAPO - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-001"
+      ]
+    },
+    {
+      "id": "TP-212",
+      "title": "MK_PHYSICS_CAPO - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-002"
+      ]
+    },
+    {
+      "id": "TP-213",
+      "title": "JO_PROOF_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-003"
+      ]
+    },
+    {
+      "id": "TP-214",
+      "title": "MJ_PERMIT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-004"
+      ]
+    },
+    {
+      "id": "TP-215",
+      "title": "EVE_OBSERVATION - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-005"
+      ]
+    },
+    {
+      "id": "TP-216",
+      "title": "M3_ROUTE_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-006"
+      ]
+    },
+    {
+      "id": "TP-217",
+      "title": "MERMAID_ACCOUNT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-007"
+      ]
+    },
+    {
+      "id": "TP-218",
+      "title": "SHIVA_SHELL - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-008"
+      ]
+    },
+    {
+      "id": "TP-219",
+      "title": "SHIVAS_INTERNAL_REFLECTION - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-009"
+      ]
+    },
+    {
+      "id": "TP-220",
+      "title": "CHI_VARIANCE_OBJECT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-010"
+      ]
+    },
+    {
+      "id": "TP-221",
+      "title": "WATER_INTERVAL_STATE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-011"
+      ]
+    },
+    {
+      "id": "TP-222",
+      "title": "PASSKEY_PUBLIC_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-012"
+      ]
+    },
+    {
+      "id": "TP-223",
+      "title": "PEARL_VARIANCE_CONTAINER - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-013"
+      ]
+    },
+    {
+      "id": "TP-224",
+      "title": "PEARL_ALLOCATION_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-014"
+      ]
+    },
+    {
+      "id": "TP-225",
+      "title": "PEARL_ACOUSTIC_PROFILE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-015"
+      ]
+    },
+    {
+      "id": "TP-226",
+      "title": "PEARL_SYMPOSIUM_REGISTRY - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-016"
+      ]
+    },
+    {
+      "id": "TP-227",
+      "title": "BANGEL_SHEET - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-017"
+      ]
+    },
+    {
+      "id": "TP-228",
+      "title": "BANGEL_SHEET_CELL - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-018"
+      ]
+    },
+    {
+      "id": "TP-229",
+      "title": "BANGEL_SHEET_REVISION - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-019"
+      ]
+    },
+    {
+      "id": "TP-230",
+      "title": "BANGEL_SHEET_AUDIT_PARTICLE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-020"
+      ]
+    },
+    {
+      "id": "TP-231",
+      "title": "JPOSMJ_PRODUCT_ENVELOPE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-021"
+      ]
+    },
+    {
+      "id": "TP-232",
+      "title": "SISTER_PHYSICAL_CONTAINMENT_PROFILE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-022"
+      ]
+    },
+    {
+      "id": "TP-233",
+      "title": "STANDARD_CONTAINMENT_GEOMETRY_PROFILE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-023"
+      ]
+    },
+    {
+      "id": "TP-234",
+      "title": "REFERENCE_GAS_PROFILE_H2 - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-024"
+      ]
+    },
+    {
+      "id": "TP-235",
+      "title": "CONTAINMENT_MODIFICATION_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-025"
+      ]
+    },
+    {
+      "id": "TP-236",
+      "title": "CONE_TOP_PEARL_ANCHOR - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-026"
+      ]
+    },
+    {
+      "id": "TP-237",
+      "title": "GAS_HEIGHT_OBSERVATION - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-027"
+      ]
+    },
+    {
+      "id": "TP-238",
+      "title": "RESERVOIR_RETURN_LOOP_PROFILE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-028"
+      ]
+    },
+    {
+      "id": "TP-239",
+      "title": "OUTWARD_GAP_PATH_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-029"
+      ]
+    },
+    {
+      "id": "TP-240",
+      "title": "RESERVOIR_BUFFER_ACCOUNT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-030"
+      ]
+    },
+    {
+      "id": "TP-241",
+      "title": "CIRCULAR_REENTRY_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-031"
+      ]
+    },
+    {
+      "id": "TP-242",
+      "title": "RELATIVE_FRAME_FRICTION_LEDGER - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-032"
+      ]
+    },
+    {
+      "id": "TP-243",
+      "title": "RESERVOIR_LAKE_BUFFER - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-033"
+      ]
+    },
+    {
+      "id": "TP-244",
+      "title": "BACKSIDE_OUTLET_PORT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-034"
+      ]
+    },
+    {
+      "id": "TP-245",
+      "title": "OUTWARD_GAP_ARC - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-035"
+      ]
+    },
+    {
+      "id": "TP-246",
+      "title": "PEARL_REFERENCE_CIRCLE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-036"
+      ]
+    },
+    {
+      "id": "TP-247",
+      "title": "CIRCULAR_REENTRY_PORT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-037"
+      ]
+    },
+    {
+      "id": "TP-248",
+      "title": "RESERVOIR_TRANSFER_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-038"
+      ]
+    },
+    {
+      "id": "TP-249",
+      "title": "PERSPECTIVE_FRICTION_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-039"
+      ]
+    },
+    {
+      "id": "TP-250",
+      "title": "DRO_UNIT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-040"
+      ]
+    },
+    {
+      "id": "TP-251",
+      "title": "DRO_SCALE_ENVELOPE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-041"
+      ]
+    },
+    {
+      "id": "TP-252",
+      "title": "DRO_COLLECTION_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-042"
+      ]
+    },
+    {
+      "id": "TP-253",
+      "title": "DRO_OPTICAL_EVIDENCE_PROFILE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-043"
+      ]
+    },
+    {
+      "id": "TP-254",
+      "title": "DRO_PEARL_HANDOFF_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-044"
+      ]
+    },
+    {
+      "id": "TP-255",
+      "title": "PEARL_DRO_NODE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-045"
+      ]
+    },
+    {
+      "id": "TP-256",
+      "title": "DRO_START_ENERGY_PACKET - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-046"
+      ]
+    },
+    {
+      "id": "TP-257",
+      "title": "DRO_IGNITION_REQUEST - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-047"
+      ]
+    },
+    {
+      "id": "TP-258",
+      "title": "LECANTO_IMAGE_EVIDENCE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-048"
+      ]
+    },
+    {
+      "id": "TP-259",
+      "title": "LECANTO_INTENT_HYPOTHESIS - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-049"
+      ]
+    },
+    {
+      "id": "TP-260",
+      "title": "LECANTO_TRANSFORMATION_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-050"
+      ]
+    },
+    {
+      "id": "TP-261",
+      "title": "IMAGE_VARIANCE_RECEIPT - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-051"
+      ]
+    },
+    {
+      "id": "TP-262",
+      "title": "SEMICONDUCTOR_DRO_ENERGY_LEDGER - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-052"
+      ]
+    },
+    {
+      "id": "TP-263",
+      "title": "SEMICONDUCTOR_PEARL_NODE - Governed Object",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-OBJ-053"
+      ]
+    },
+    {
+      "id": "TP-264",
+      "title": "MJ Physics Based Measurement Engineering Framework - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-001"
+      ]
+    },
+    {
+      "id": "TP-265",
+      "title": "Bangel Governed Measurement Language - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-002"
+      ]
+    },
+    {
+      "id": "TP-266",
+      "title": "Elsa Deterministic Semantic Recovery - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-003"
+      ]
+    },
+    {
+      "id": "TP-267",
+      "title": "JP Mathematical and Architectural Canon - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-004"
+      ]
+    },
+    {
+      "id": "TP-268",
+      "title": "Mika/MK Physics Modulator System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-005"
+      ]
+    },
+    {
+      "id": "TP-269",
+      "title": "JO Deterministic Proof and Runtime - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-006"
+      ]
+    },
+    {
+      "id": "TP-270",
+      "title": "MJOS Operating Substrate - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-007"
+      ]
+    },
+    {
+      "id": "TP-271",
+      "title": "JP Semiconductor Phone Battery and OS Candidate - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-008"
+      ]
+    },
+    {
+      "id": "TP-272",
+      "title": "JP Large-Scale Boating Power Candidate - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-009"
+      ]
+    },
+    {
+      "id": "TP-273",
+      "title": "JP Peaceful High-Energy Propulsion Research Candidate - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-010"
+      ]
+    },
+    {
+      "id": "TP-274",
+      "title": "Sister Predictive Containment System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-011"
+      ]
+    },
+    {
+      "id": "TP-275",
+      "title": "EVE Variance Screen and Egress Accounting - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-012"
+      ]
+    },
+    {
+      "id": "TP-276",
+      "title": "Angels Safety and Corrective Command System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-013"
+      ]
+    },
+    {
+      "id": "TP-277",
+      "title": "Mermaid Accounting and Reconciliation System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-014"
+      ]
+    },
+    {
+      "id": "TP-278",
+      "title": "Shiva Dual Financial Rails - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-015"
+      ]
+    },
+    {
+      "id": "TP-279",
+      "title": "SHIVAS Internal Settlement Reflection - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-016"
+      ]
+    },
+    {
+      "id": "TP-280",
+      "title": "Shiva Crypto External-Market Candidate - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-017"
+      ]
+    },
+    {
+      "id": "TP-281",
+      "title": "Shiva Exchange Rule Reference - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-018"
+      ]
+    },
+    {
+      "id": "TP-282",
+      "title": "Moana Governed Browser - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-019"
+      ]
+    },
+    {
+      "id": "TP-283",
+      "title": "Aviator Organizational Workspace - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-020"
+      ]
+    },
+    {
+      "id": "TP-284",
+      "title": "Lecanto Truthful Visualization - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-021"
+      ]
+    },
+    {
+      "id": "TP-285",
+      "title": "Elsa Governed Marketplace Reference - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-022"
+      ]
+    },
+    {
+      "id": "TP-286",
+      "title": "Shekina Distributed Continuity - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-023"
+      ]
+    },
+    {
+      "id": "TP-287",
+      "title": "Pearl Hypothetical Simulation and Information-Retention System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-024"
+      ]
+    },
+    {
+      "id": "TP-288",
+      "title": "Bangel Spreadsheets - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-025"
+      ]
+    },
+    {
+      "id": "TP-289",
+      "title": "JPOSMJ Product Portfolio Envelope - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-026"
+      ]
+    },
+    {
+      "id": "TP-290",
+      "title": "MJ Standard Containment Geometry and Reference Gas Model - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-027"
+      ]
+    },
+    {
+      "id": "TP-291",
+      "title": "MJ Reservoir Collection, Lake Buffer, and Spiral-Compatible Re-entry - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-028"
+      ]
+    },
+    {
+      "id": "TP-292",
+      "title": "MJOS Solar Shared-Core Architecture - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-029"
+      ]
+    },
+    {
+      "id": "TP-293",
+      "title": "MJOS Solar Semiconductor Phone Battery and OS Profile - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-030"
+      ]
+    },
+    {
+      "id": "TP-294",
+      "title": "MJOS Solar-Assisted Marine Power and Propulsion Profile - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-031"
+      ]
+    },
+    {
+      "id": "TP-295",
+      "title": "MJOS Peaceful Solar-Assisted Rocket/Spacecraft Power and OS Profile - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-032"
+      ]
+    },
+    {
+      "id": "TP-296",
+      "title": "DRO Discrete Retention and Element-Collection Reference System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-033"
+      ]
+    },
+    {
+      "id": "TP-297",
+      "title": "DRO-to-Pearl Computational Node Handoff - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-034"
+      ]
+    },
+    {
+      "id": "TP-298",
+      "title": "DRO Start-Energy and Restart-Reserve Reference System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-035"
+      ]
+    },
+    {
+      "id": "TP-299",
+      "title": "Lecanto Image Provenance, Physics, Variance, and Intent-Hypothesis System - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-036"
+      ]
+    },
+    {
+      "id": "TP-300",
+      "title": "JP Semiconductor DRO and Pearl Computational Integration - Product Brief",
+      "source_kind": "BLUE_PAGE",
+      "source_ids": [
+        "BP-PROD-037"
+      ]
+    },
+    {
+      "id": "TP-301",
+      "title": "Formula cluster F-001 through F-006",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-001"
+      ]
+    },
+    {
+      "id": "TP-302",
+      "title": "Formula cluster F-007 through F-012",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-002"
+      ]
+    },
+    {
+      "id": "TP-303",
+      "title": "Formula cluster F-013 through F-018",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-003"
+      ]
+    },
+    {
+      "id": "TP-304",
+      "title": "Formula cluster F-019 through F-024",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-004"
+      ]
+    },
+    {
+      "id": "TP-305",
+      "title": "Formula cluster F-025 through F-030",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-005"
+      ]
+    },
+    {
+      "id": "TP-306",
+      "title": "Formula cluster F-031 through F-036",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-006"
+      ]
+    },
+    {
+      "id": "TP-307",
+      "title": "Formula cluster F-037 through F-042",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-007"
+      ]
+    },
+    {
+      "id": "TP-308",
+      "title": "Formula cluster F-043 through F-048",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-008"
+      ]
+    },
+    {
+      "id": "TP-309",
+      "title": "Formula cluster F-049 through F-054",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-009"
+      ]
+    },
+    {
+      "id": "TP-310",
+      "title": "Formula cluster F-055 through F-060",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-010"
+      ]
+    },
+    {
+      "id": "TP-311",
+      "title": "Formula cluster F-061 through F-066",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-011"
+      ]
+    },
+    {
+      "id": "TP-312",
+      "title": "Formula cluster F-067 through F-072",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-012"
+      ]
+    },
+    {
+      "id": "TP-313",
+      "title": "Formula cluster F-073 through F-078",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-013"
+      ]
+    },
+    {
+      "id": "TP-314",
+      "title": "Formula cluster F-079 through F-084",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-014"
+      ]
+    },
+    {
+      "id": "TP-315",
+      "title": "Formula cluster F-085 through F-090",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-015"
+      ]
+    },
+    {
+      "id": "TP-316",
+      "title": "Formula cluster F-091 through F-096",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-016"
+      ]
+    },
+    {
+      "id": "TP-317",
+      "title": "Formula cluster F-097 through F-102",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-017"
+      ]
+    },
+    {
+      "id": "TP-318",
+      "title": "Formula cluster F-103 through F-108",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-018"
+      ]
+    },
+    {
+      "id": "TP-319",
+      "title": "Formula cluster F-109 through F-114",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-019"
+      ]
+    },
+    {
+      "id": "TP-320",
+      "title": "Formula cluster F-115 through F-121",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-020"
+      ]
+    },
+    {
+      "id": "TP-321",
+      "title": "Formula cluster F-122 through F-127",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-021"
+      ]
+    },
+    {
+      "id": "TP-322",
+      "title": "Formula cluster F-128 through F-133",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-022"
+      ]
+    },
+    {
+      "id": "TP-323",
+      "title": "Formula cluster F-134 through F-139",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-023"
+      ]
+    },
+    {
+      "id": "TP-324",
+      "title": "Formula cluster F-140 through F-145",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-024"
+      ]
+    },
+    {
+      "id": "TP-325",
+      "title": "Formula cluster F-146 through F-151",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-025"
+      ]
+    },
+    {
+      "id": "TP-326",
+      "title": "Formula cluster F-152 through F-157",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-026"
+      ]
+    },
+    {
+      "id": "TP-327",
+      "title": "Formula cluster F-158 through F-163",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-027"
+      ]
+    },
+    {
+      "id": "TP-328",
+      "title": "Formula cluster F-164 through F-169",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-028"
+      ]
+    },
+    {
+      "id": "TP-329",
+      "title": "Formula cluster F-170 through F-175",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-029"
+      ]
+    },
+    {
+      "id": "TP-330",
+      "title": "Formula cluster F-176 through F-181",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-030"
+      ]
+    },
+    {
+      "id": "TP-331",
+      "title": "Formula cluster F-182 through F-187",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-031"
+      ]
+    },
+    {
+      "id": "TP-332",
+      "title": "Formula cluster F-188 through F-193",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-032"
+      ]
+    },
+    {
+      "id": "TP-333",
+      "title": "Formula cluster F-194 through F-199",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-033"
+      ]
+    },
+    {
+      "id": "TP-334",
+      "title": "Formula cluster F-200 through F-205",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-034"
+      ]
+    },
+    {
+      "id": "TP-335",
+      "title": "Formula cluster F-206 through F-211",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-035"
+      ]
+    },
+    {
+      "id": "TP-336",
+      "title": "Formula cluster F-212 through F-217",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-036"
+      ]
+    },
+    {
+      "id": "TP-337",
+      "title": "Formula cluster F-218 through F-223",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-037"
+      ]
+    },
+    {
+      "id": "TP-338",
+      "title": "Formula cluster F-224 through F-229",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-038"
+      ]
+    },
+    {
+      "id": "TP-339",
+      "title": "Formula cluster F-230 through F-235",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-039"
+      ]
+    },
+    {
+      "id": "TP-340",
+      "title": "Formula cluster F-236 through F-242",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-040"
+      ]
+    },
+    {
+      "id": "TP-341",
+      "title": "MJ family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-041"
+      ]
+    },
+    {
+      "id": "TP-342",
+      "title": "Bangel family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-042"
+      ]
+    },
+    {
+      "id": "TP-343",
+      "title": "Elsa family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-043"
+      ]
+    },
+    {
+      "id": "TP-344",
+      "title": "JP family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-044"
+      ]
+    },
+    {
+      "id": "TP-345",
+      "title": "Mika / MK family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-045"
+      ]
+    },
+    {
+      "id": "TP-346",
+      "title": "JO family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-046"
+      ]
+    },
+    {
+      "id": "TP-347",
+      "title": "MJOS family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-047"
+      ]
+    },
+    {
+      "id": "TP-348",
+      "title": "Angels family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-048"
+      ]
+    },
+    {
+      "id": "TP-349",
+      "title": "Bellatrix family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-049"
+      ]
+    },
+    {
+      "id": "TP-350",
+      "title": "Sister family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-050"
+      ]
+    },
+    {
+      "id": "TP-351",
+      "title": "EVE family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-051"
+      ]
+    },
+    {
+      "id": "TP-352",
+      "title": "Mary / M3 family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-052"
+      ]
+    },
+    {
+      "id": "TP-353",
+      "title": "Mermaid family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-053"
+      ]
+    },
+    {
+      "id": "TP-354",
+      "title": "Shiva family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-054"
+      ]
+    },
+    {
+      "id": "TP-355",
+      "title": "Shekina family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-055"
+      ]
+    },
+    {
+      "id": "TP-356",
+      "title": "Belle family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-056"
+      ]
+    },
+    {
+      "id": "TP-357",
+      "title": "Lecanto family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-057"
+      ]
+    },
+    {
+      "id": "TP-358",
+      "title": "Moana family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-058"
+      ]
+    },
+    {
+      "id": "TP-359",
+      "title": "Aviator family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-059"
+      ]
+    },
+    {
+      "id": "TP-360",
+      "title": "CHI family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-060"
+      ]
+    },
+    {
+      "id": "TP-361",
+      "title": "WATER family manifestation blueprint",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-061"
+      ]
+    },
+    {
+      "id": "TP-362",
+      "title": "MJ Physics Based Measurement Engineering Framework / Lecanto Truthful Visualization",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-062"
+      ]
+    },
+    {
+      "id": "TP-363",
+      "title": "Bangel Governed Measurement Language / Elsa Governed Marketplace Reference",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-063"
+      ]
+    },
+    {
+      "id": "TP-364",
+      "title": "Elsa Deterministic Semantic Recovery / Shekina Distributed Continuity",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-064"
+      ]
+    },
+    {
+      "id": "TP-365",
+      "title": "JP Mathematical and Architectural Canon / Pearl Hypothetical Simulation and Information-Retention System",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-065"
+      ]
+    },
+    {
+      "id": "TP-366",
+      "title": "Mika/MK Physics Modulator System / Bangel Spreadsheets",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-066"
+      ]
+    },
+    {
+      "id": "TP-367",
+      "title": "JO Deterministic Proof and Runtime / JPOSMJ Product Portfolio Envelope",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-067"
+      ]
+    },
+    {
+      "id": "TP-368",
+      "title": "MJOS Operating Substrate / MJ Standard Containment Geometry and Reference Gas Model",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-068"
+      ]
+    },
+    {
+      "id": "TP-369",
+      "title": "JP Semiconductor Phone Battery and OS Candidate / MJ Reservoir Collection, Lake Buffer, and Spiral-Compatible Re-entry",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-069"
+      ]
+    },
+    {
+      "id": "TP-370",
+      "title": "JP Large-Scale Boating Power Candidate / MJOS Solar Shared-Core Architecture",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-070"
+      ]
+    },
+    {
+      "id": "TP-371",
+      "title": "JP Peaceful High-Energy Propulsion Research Candidate / MJOS Solar Semiconductor Phone Battery and OS Profile",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-071"
+      ]
+    },
+    {
+      "id": "TP-372",
+      "title": "Sister Predictive Containment System / MJOS Solar-Assisted Marine Power and Propulsion Profile",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-072"
+      ]
+    },
+    {
+      "id": "TP-373",
+      "title": "EVE Variance Screen and Egress Accounting / MJOS Peaceful Solar-Assisted Rocket/Spacecraft Power and OS Profile",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-073"
+      ]
+    },
+    {
+      "id": "TP-374",
+      "title": "Angels Safety and Corrective Command System / DRO Discrete Retention and Element-Collection Reference System",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-074"
+      ]
+    },
+    {
+      "id": "TP-375",
+      "title": "Mermaid Accounting and Reconciliation System / DRO-to-Pearl Computational Node Handoff",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-075"
+      ]
+    },
+    {
+      "id": "TP-376",
+      "title": "Shiva Dual Financial Rails / DRO Start-Energy and Restart-Reserve Reference System",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-076"
+      ]
+    },
+    {
+      "id": "TP-377",
+      "title": "SHIVAS Internal Settlement Reflection / Lecanto Image Provenance, Physics, Variance, and Intent-Hypothesis System",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-077"
+      ]
+    },
+    {
+      "id": "TP-378",
+      "title": "Shiva Day-1 Internal Banking and Financial Ecosystem MVP / JP Semiconductor DRO and Pearl Computational Integration",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-078"
+      ]
+    },
+    {
+      "id": "TP-379",
+      "title": "Shiva Exchange Rule Reference",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-079"
+      ]
+    },
+    {
+      "id": "TP-380",
+      "title": "Moana Governed Browser",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-080"
+      ]
+    },
+    {
+      "id": "TP-381",
+      "title": "Aviator Organizational Workspace",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-081"
+      ]
+    },
+    {
+      "id": "TP-382",
+      "title": "JP_CAPO / WATER_INTERVAL_STATE / JPOSMJ_PRODUCT_ENVELOPE",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-082"
+      ]
+    },
+    {
+      "id": "TP-383",
+      "title": "MK_PHYSICS_CAPO / PASSKEY_PUBLIC_RECEIPT / SISTER_PHYSICAL_CONTAINMENT_PROFILE",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-083"
+      ]
+    },
+    {
+      "id": "TP-384",
+      "title": "JO_PROOF_RECEIPT / PEARL_VARIANCE_CONTAINER / STANDARD_CONTAINMENT_GEOMETRY_PROFILE",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-084"
+      ]
+    },
+    {
+      "id": "TP-385",
+      "title": "MJ_PERMIT / PEARL_ALLOCATION_RECEIPT / REFERENCE_GAS_PROFILE_H2",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-085"
+      ]
+    },
+    {
+      "id": "TP-386",
+      "title": "EVE_OBSERVATION / PEARL_ACOUSTIC_PROFILE / CONTAINMENT_MODIFICATION_RECEIPT",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-086"
+      ]
+    },
+    {
+      "id": "TP-387",
+      "title": "M3_ROUTE_RECEIPT / PEARL_SYMPOSIUM_REGISTRY / CONE_TOP_PEARL_ANCHOR",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-087"
+      ]
+    },
+    {
+      "id": "TP-388",
+      "title": "MERMAID_ACCOUNT / BANGEL_SHEET / GAS_HEIGHT_OBSERVATION",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-088"
+      ]
+    },
+    {
+      "id": "TP-389",
+      "title": "SHIVA_SHELL / BANGEL_SHEET_CELL / RESERVOIR_RETURN_LOOP_PROFILE",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-089"
+      ]
+    },
+    {
+      "id": "TP-390",
+      "title": "SHIVAS_INTERNAL_REFLECTION / BANGEL_SHEET_REVISION / OUTWARD_GAP_PATH_RECEIPT",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-090"
+      ]
+    },
+    {
+      "id": "TP-391",
+      "title": "CHI_VARIANCE_OBJECT / BANGEL_SHEET_AUDIT_PARTICLE / RESERVOIR_BUFFER_ACCOUNT",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-091"
+      ]
+    },
+    {
+      "id": "TP-392",
+      "title": "Command gateway lifecycle",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-092"
+      ]
+    },
+    {
+      "id": "TP-393",
+      "title": "R / R0 / R1 / N1 / R2 observation lifecycle",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-093"
+      ]
+    },
+    {
+      "id": "TP-394",
+      "title": "Sister containment and reservoir loop",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-094"
+      ]
+    },
+    {
+      "id": "TP-395",
+      "title": "DRO collection and Pearl handoff",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-095"
+      ]
+    },
+    {
+      "id": "TP-396",
+      "title": "Lecanto image provenance and intent hypothesis",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-096"
+      ]
+    },
+    {
+      "id": "TP-397",
+      "title": "Bangel Spreadsheets dependency and audit flow",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-097"
+      ]
+    },
+    {
+      "id": "TP-398",
+      "title": "Shiva internal banking and Mermaid reconciliation",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-098"
+      ]
+    },
+    {
+      "id": "TP-399",
+      "title": "Solar three-profile separation",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-099"
+      ]
+    },
+    {
+      "id": "TP-400",
+      "title": "Passkey integrity and encrypted Git transition",
+      "source_kind": "YELLOW_PAGE",
+      "source_ids": [
+        "YP-100"
+      ]
+    },
+    {
+      "id": "TP-401",
+      "title": "MJ — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-01"
+      ]
+    },
+    {
+      "id": "TP-402",
+      "title": "Bangel — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-02"
+      ]
+    },
+    {
+      "id": "TP-403",
+      "title": "Elsa — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-03"
+      ]
+    },
+    {
+      "id": "TP-404",
+      "title": "JP — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-04"
+      ]
+    },
+    {
+      "id": "TP-405",
+      "title": "Mika / MK — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-05"
+      ]
+    },
+    {
+      "id": "TP-406",
+      "title": "JO — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-06"
+      ]
+    },
+    {
+      "id": "TP-407",
+      "title": "MJOS — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-07"
+      ]
+    },
+    {
+      "id": "TP-408",
+      "title": "Angels — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-08"
+      ]
+    },
+    {
+      "id": "TP-409",
+      "title": "Bellatrix — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-09"
+      ]
+    },
+    {
+      "id": "TP-410",
+      "title": "Sister — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-10"
+      ]
+    },
+    {
+      "id": "TP-411",
+      "title": "EVE — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-11"
+      ]
+    },
+    {
+      "id": "TP-412",
+      "title": "Mary / M3 — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-12"
+      ]
+    },
+    {
+      "id": "TP-413",
+      "title": "Mermaid — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-13"
+      ]
+    },
+    {
+      "id": "TP-414",
+      "title": "Shiva — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-14"
+      ]
+    },
+    {
+      "id": "TP-415",
+      "title": "Shekina — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-15"
+      ]
+    },
+    {
+      "id": "TP-416",
+      "title": "Belle — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-16"
+      ]
+    },
+    {
+      "id": "TP-417",
+      "title": "Lecanto — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-17"
+      ]
+    },
+    {
+      "id": "TP-418",
+      "title": "Moana — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-18"
+      ]
+    },
+    {
+      "id": "TP-419",
+      "title": "Aviator — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-19"
+      ]
+    },
+    {
+      "id": "TP-420",
+      "title": "CHI — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-20"
+      ]
+    },
+    {
+      "id": "TP-421",
+      "title": "WATER — MJ Manifestation White Paper",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-FAMILY-WP-21"
+      ]
+    },
+    {
+      "id": "TP-422",
+      "title": "MJ Physics Based Measurement Engineering Framework",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-01"
+      ]
+    },
+    {
+      "id": "TP-423",
+      "title": "Bangel Governed Measurement Language",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-02"
+      ]
+    },
+    {
+      "id": "TP-424",
+      "title": "Elsa Deterministic Semantic Recovery",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-03"
+      ]
+    },
+    {
+      "id": "TP-425",
+      "title": "JP Mathematical and Architectural Canon",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-04"
+      ]
+    },
+    {
+      "id": "TP-426",
+      "title": "Mika/MK Physics Modulator System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-05"
+      ]
+    },
+    {
+      "id": "TP-427",
+      "title": "JO Deterministic Proof and Runtime",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-06"
+      ]
+    },
+    {
+      "id": "TP-428",
+      "title": "MJOS Operating Substrate",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-07"
+      ]
+    },
+    {
+      "id": "TP-429",
+      "title": "JP Semiconductor Phone Battery and OS Candidate",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-08"
+      ]
+    },
+    {
+      "id": "TP-430",
+      "title": "JP Large-Scale Boating Power Candidate",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-09"
+      ]
+    },
+    {
+      "id": "TP-431",
+      "title": "JP Peaceful High-Energy Propulsion Research Candidate",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-10"
+      ]
+    },
+    {
+      "id": "TP-432",
+      "title": "Sister Predictive Containment System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-11"
+      ]
+    },
+    {
+      "id": "TP-433",
+      "title": "EVE Variance Screen and Egress Accounting",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-12"
+      ]
+    },
+    {
+      "id": "TP-434",
+      "title": "Angels Safety and Corrective Command System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-13"
+      ]
+    },
+    {
+      "id": "TP-435",
+      "title": "Mermaid Accounting and Reconciliation System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-14"
+      ]
+    },
+    {
+      "id": "TP-436",
+      "title": "Shiva Dual Financial Rails",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-15"
+      ]
+    },
+    {
+      "id": "TP-437",
+      "title": "SHIVAS Internal Settlement Reflection",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-16"
+      ]
+    },
+    {
+      "id": "TP-438",
+      "title": "Shiva Day-1 Internal Banking and Financial Ecosystem MVP",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-17"
+      ]
+    },
+    {
+      "id": "TP-439",
+      "title": "Shiva Exchange Rule Reference",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-18"
+      ]
+    },
+    {
+      "id": "TP-440",
+      "title": "Moana Governed Browser",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-19"
+      ]
+    },
+    {
+      "id": "TP-441",
+      "title": "Aviator Organizational Workspace",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-20"
+      ]
+    },
+    {
+      "id": "TP-442",
+      "title": "Lecanto Truthful Visualization",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-21"
+      ]
+    },
+    {
+      "id": "TP-443",
+      "title": "Elsa Governed Marketplace Reference",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-22"
+      ]
+    },
+    {
+      "id": "TP-444",
+      "title": "Shekina Distributed Continuity",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-23"
+      ]
+    },
+    {
+      "id": "TP-445",
+      "title": "Pearl Hypothetical Simulation and Information-Retention System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-24"
+      ]
+    },
+    {
+      "id": "TP-446",
+      "title": "Bangel Spreadsheets",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-25"
+      ]
+    },
+    {
+      "id": "TP-447",
+      "title": "JPOSMJ Product Portfolio Envelope",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-26"
+      ]
+    },
+    {
+      "id": "TP-448",
+      "title": "MJ Standard Containment Geometry and Reference Gas Model",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-27"
+      ]
+    },
+    {
+      "id": "TP-449",
+      "title": "MJ Reservoir Collection Modulation and Return Loop",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-28"
+      ]
+    },
+    {
+      "id": "TP-450",
+      "title": "MJOS Solar Shared-Core Architecture",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-SOLAR-WP-01"
+      ]
+    },
+    {
+      "id": "TP-451",
+      "title": "MJOS Solar Semiconductor Phone Battery and OS Profile",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-SOLAR-WP-02"
+      ]
+    },
+    {
+      "id": "TP-452",
+      "title": "MJOS Solar-Assisted Marine Power and Propulsion Profile",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-SOLAR-WP-03"
+      ]
+    },
+    {
+      "id": "TP-453",
+      "title": "MJOS Peaceful Solar-Assisted Rocket/Spacecraft Power and OS Profile",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-SOLAR-WP-04"
+      ]
+    },
+    {
+      "id": "TP-454",
+      "title": "DRO Discrete Retention and Element-Collection Reference System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-33"
+      ]
+    },
+    {
+      "id": "TP-455",
+      "title": "DRO-to-Pearl Computational Node Handoff",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-34"
+      ]
+    },
+    {
+      "id": "TP-456",
+      "title": "DRO Start-Energy and Restart-Reserve Reference System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-35"
+      ]
+    },
+    {
+      "id": "TP-457",
+      "title": "Lecanto Image Provenance, Physics, Variance, and Intent-Hypothesis System",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-36"
+      ]
+    },
+    {
+      "id": "TP-458",
+      "title": "Semiconductor DRO and Pearl Computational Integration",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-PRODUCT-WP-37"
+      ]
+    },
+    {
+      "id": "TP-459",
+      "title": "R1 and R2 State Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-01"
+      ]
+    },
+    {
+      "id": "TP-460",
+      "title": "Noise Floor and 23 mg Inflection",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-02"
+      ]
+    },
+    {
+      "id": "TP-461",
+      "title": "Upward 3x3 Node and Umbrella Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-03"
+      ]
+    },
+    {
+      "id": "TP-462",
+      "title": "Memory, Request Occultation, and Generational Handoff",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-04"
+      ]
+    },
+    {
+      "id": "TP-463",
+      "title": "Static Intake and Energy-Wake Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-05"
+      ]
+    },
+    {
+      "id": "TP-464",
+      "title": "EVE Variance, Screen, Evaporation, and Egress",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-06"
+      ]
+    },
+    {
+      "id": "TP-465",
+      "title": "Shiva and Mermaid Financial Rails",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-07"
+      ]
+    },
+    {
+      "id": "TP-466",
+      "title": "Passkey, Claims Ceiling, and Repository Authentication",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-08"
+      ]
+    },
+    {
+      "id": "TP-467",
+      "title": "Pearl Hypothetical Geometry and Acoustic Simulation Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-09"
+      ]
+    },
+    {
+      "id": "TP-468",
+      "title": "Bangel Spreadsheets Cell, Dependency, Revision, and Pearl Simulation Field",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-10"
+      ]
+    },
+    {
+      "id": "TP-469",
+      "title": "Standard Containment Geometry and H2 Reference Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-11"
+      ]
+    },
+    {
+      "id": "TP-470",
+      "title": "Reservoir Return Loop Physics Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-12"
+      ]
+    },
+    {
+      "id": "TP-471",
+      "title": "DRO Scale, Unit, and R/R1/R2 Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-13"
+      ]
+    },
+    {
+      "id": "TP-472",
+      "title": "DRO Optical Measurement and Light-Frequency Evidence Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-14"
+      ]
+    },
+    {
+      "id": "TP-473",
+      "title": "DRO/Pearl Computational Node and Capacity Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-15"
+      ]
+    },
+    {
+      "id": "TP-474",
+      "title": "DRO Start-Energy, Restart-Reserve, and Controlled-Release Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-16"
+      ]
+    },
+    {
+      "id": "TP-475",
+      "title": "Lecanto Image Provenance, Signal Physics, and Intent-Hypothesis Representation",
+      "source_kind": "WHITE_PAPER",
+      "source_ids": [
+        "MJ-PBMEF-REPRESENTATION-WP-17"
+      ]
+    },
+    {
+      "id": "TP-476",
+      "title": "JO source modules",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "jo/*.py"
+      ]
+    },
+    {
+      "id": "TP-477",
+      "title": "Bangel source units",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "bangel/**/*.bangel"
+      ]
+    },
+    {
+      "id": "TP-478",
+      "title": "Governed schemas",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "schemas/*.json"
+      ]
+    },
+    {
+      "id": "TP-479",
+      "title": "Pathway specifications",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "pathways/*"
+      ]
+    },
+    {
+      "id": "TP-480",
+      "title": "Manifest sources",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "manifest/*"
+      ]
+    },
+    {
+      "id": "TP-481",
+      "title": "Passkey and ceremony sources",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "passkey/*"
+      ]
+    },
+    {
+      "id": "TP-482",
+      "title": "Repository tests",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "tests/*"
+      ]
+    },
+    {
+      "id": "TP-483",
+      "title": "Validation evidence",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "validation/*"
+      ]
+    },
+    {
+      "id": "TP-484",
+      "title": "Potential IP registers",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/**/potential-ip-points/*"
+      ]
+    },
+    {
+      "id": "TP-485",
+      "title": "Blue Page corpus",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/blue-pages/*"
+      ]
+    },
+    {
+      "id": "TP-486",
+      "title": "Pink Paper corpus",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/pink-paper/* and official-docs/pink-papers/*"
+      ]
+    },
+    {
+      "id": "TP-487",
+      "title": "Review series",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/review-series/*"
+      ]
+    },
+    {
+      "id": "TP-488",
+      "title": "Solar profile documents",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/solar/*"
+      ]
+    },
+    {
+      "id": "TP-489",
+      "title": "R8 DRO Pearl Lecanto documents",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/r8/*"
+      ]
+    },
+    {
+      "id": "TP-490",
+      "title": "Terms and assent",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official-docs/terms/*"
+      ]
+    },
+    {
+      "id": "TP-491",
+      "title": "Family object product registers",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "manifest/*REGISTER*"
+      ]
+    },
+    {
+      "id": "TP-492",
+      "title": "Formula register",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "pathways/FORMULA-REGISTER.json"
+      ]
+    },
+    {
+      "id": "TP-493",
+      "title": "Ethics and non-weaponization",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "manifest/ETHICS-MANIFEST.*"
+      ]
+    },
+    {
+      "id": "TP-494",
+      "title": "Physical evidence holds",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "schemas and validation hold receipts"
+      ]
+    },
+    {
+      "id": "TP-495",
+      "title": "Repository and Git evidence",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "Git bundle, source ZIP, content manifest"
+      ]
+    },
+    {
+      "id": "TP-496",
+      "title": "Documentation QA",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "official documentation QA and PDF preflight"
+      ]
+    },
+    {
+      "id": "TP-497",
+      "title": "Founder ceremony",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "eligibility, roots, declaration, public receipt"
+      ]
+    },
+    {
+      "id": "TP-498",
+      "title": "Shiva Day-1 internal banking",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "internal banking MVP; no external crypto"
+      ]
+    },
+    {
+      "id": "TP-499",
+      "title": "Yellow visual system",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "100 Yellow visual bundles"
+      ]
+    },
+    {
+      "id": "TP-500",
+      "title": "Brown Purple Angel systems",
+      "source_kind": "SOURCE_PROCESS_GROUP",
+      "source_ids": [
+        "lifecycle, syntax, and safety annexes"
+      ]
+    }
+  ],
+  "source_file_mapping": {
+    "CHANGELOG.md": "TP-481",
+    "CONTRIBUTING.md": "TP-497",
+    "DAY0-BATCH-SEQUENCE.md": "TP-482",
+    "DAY0-SUCCESSOR-DECLARATION.md": "TP-478",
+    "LICENSE-PENDING.md": "TP-481",
+    "PROJECT-IDENTITY.json": "TP-492",
+    "R10-FINAL-STATUS.md": "TP-490",
+    "R8-FINAL-STATUS.md": "TP-497",
+    "R9-FINAL-STATUS.md": "TP-497",
+    "README.md": "TP-497",
+    "SECURITY.md": "TP-480",
+    "SOLAR-R7-FINAL-STATUS.md": "TP-487",
+    "STATUS.md": "TP-491",
+    "bangel/manifestations/angels.bangel": "TP-491",
+    "bangel/manifestations/aviator.bangel": "TP-492",
+    "bangel/manifestations/bellatrix.bangel": "TP-482",
+    "bangel/manifestations/belle.bangel": "TP-499",
+    "bangel/manifestations/chi.bangel": "TP-495",
+    "bangel/manifestations/bangel.bangel": "TP-490",
+    "bangel/manifestations/elsa.bangel": "TP-485",
+    "bangel/manifestations/eve.bangel": "TP-483",
+    "bangel/manifestations/jo.bangel": "TP-497",
+    "bangel/manifestations/jp.bangel": "TP-489",
+    "bangel/manifestations/lecanto.bangel": "TP-476",
+    "bangel/manifestations/m3.bangel": "TP-492",
+    "bangel/manifestations/mermaid.bangel": "TP-477",
+    "bangel/manifestations/mj.bangel": "TP-478",
+    "bangel/manifestations/mjos.bangel": "TP-499",
+    "bangel/manifestations/mk.bangel": "TP-490",
+    "bangel/manifestations/moana.bangel": "TP-476",
+    "bangel/manifestations/shekina.bangel": "TP-482",
+    "bangel/manifestations/shiva.bangel": "TP-488",
+    "bangel/manifestations/sister.bangel": "TP-496",
+    "bangel/manifestations/water.bangel": "TP-492",
+    "bangel/mj-pbmef-manifest.bangel": "TP-481",
+    "bangel/products/angels-safety.bangel": "TP-485",
+    "bangel/products/aviator-workspace.bangel": "TP-481",
+    "bangel/products/bangel-language.bangel": "TP-495",
+    "bangel/products/bangel-spreadsheets.bangel": "TP-480",
+    "bangel/products/dro-collection.bangel": "TP-491",
+    "bangel/products/dro-ignition-reference.bangel": "TP-495",
+    "bangel/products/dro-pearl-handoff.bangel": "TP-496",
+    "bangel/products/elsa-marketplace.bangel": "TP-496",
+    "bangel/products/elsa-semantics.bangel": "TP-480",
+    "bangel/products/eve-screen.bangel": "TP-494",
+    "bangel/products/jo-runtime.bangel": "TP-478",
+    "bangel/products/jp-canon.bangel": "TP-486",
+    "bangel/products/jp-ls-boat.bangel": "TP-487",
+    "bangel/products/jp-peaceful-propulsion.bangel": "TP-496",
+    "bangel/products/jp-sc-dro-pearl.bangel": "TP-477",
+    "bangel/products/jp-sc-phone.bangel": "TP-482",
+    "bangel/products/jposmj-portfolio.bangel": "TP-486",
+    "bangel/products/lecanto-image-truth.bangel": "TP-499",
+    "bangel/products/lecanto-visual.bangel": "TP-496",
+    "bangel/products/mermaid-recon.bangel": "TP-495",
+    "bangel/products/mjos-substrate.bangel": "TP-479",
+    "bangel/products/mk-physics.bangel": "TP-498",
+    "bangel/products/moana-browser.bangel": "TP-500",
+    "bangel/products/pbmef-core.bangel": "TP-493",
+    "bangel/products/pearl-containment.bangel": "TP-484",
+    "bangel/products/reservoir-collection-modulation.bangel": "TP-500",
+    "bangel/products/shekina-continuity.bangel": "TP-492",
+    "bangel/products/shiva-crypto.bangel": "TP-482",
+    "bangel/products/shiva-exchange.bangel": "TP-500",
+    "bangel/products/shiva-rails.bangel": "TP-495",
+    "bangel/products/shivas-internal.bangel": "TP-485",
+    "bangel/products/sister-containment.bangel": "TP-499",
+    "bangel/products/solar-core.bangel": "TP-491",
+    "bangel/products/solar-marine.bangel": "TP-499",
+    "bangel/products/solar-rocket.bangel": "TP-485",
+    "bangel/products/solar-semi-phone.bangel": "TP-499",
+    "bangel/products/standard-containment-geometry.bangel": "TP-499",
+    "examples/containment/RESERVOIR-RETURN-REFERENCE-001.json": "TP-479",
+    "examples/containment/STANDARD-CONTAINMENT-REFERENCE-001.json": "TP-491",
+    "examples/bangel-spreadsheets/OPERATIONS-MVP-001.json": "TP-490",
+    "examples/pearls/PEARL-REFERENCE-PACKET-001.json": "TP-491",
+    "jo/__init__.py": "TP-485",
+    "jo/containment_geometry.py": "TP-489",
+    "jo/bangel_spreadsheets.py": "TP-493",
+    "jo/dro.py": "TP-485",
+    "jo/dro_ignition.py": "TP-489",
+    "jo/formulas.py": "TP-489",
+    "jo/lecanto.py": "TP-499",
+    "jo/numeric.py": "TP-493",
+    "jo/pearls.py": "TP-494",
+    "jo/reference_gas.py": "TP-499",
+    "jo/reservoir_modulation.py": "TP-495",
+    "jo/semiconductor_dro.py": "TP-495",
+    "jo/sister_containment.py": "TP-495",
+    "jo/validation.py": "TP-489",
+    "lineage/PREPARATORY-LINEAGE-ROOTS.json": "TP-483",
+    "lineage/R2-PEARL-SIMULATION-CORRECTION-RECEIPT-001.md": "TP-476",
+    "lineage/R3-RESERVOIR-MODULATION-PREDECESSOR-RECEIPT-001.md": "TP-483",
+    "lineage/R7-PREDECESSOR-ROOTS-AND-SOLAR-INPUT-001.json": "TP-477",
+    "lineage/R7-PREDECESSOR-ROOTS-AND-SOLAR-INPUT-001.md": "TP-476",
+    "lineage/R8-PREDECESSOR-ROOTS-001.md": "TP-499",
+    "lineage/RETURN-POINT-BEFORE-DAY0.md": "TP-486",
+    "lineage/excluded/17-shiva-crypto-historical.md": "TP-480",
+    "lineage/r7/verify_repository_r7.py": "TP-500",
+    "lineage/solar/MJOS-SOLAR-THREE-PROFILE-DESIGN-FREEZE-001-ADMISSION-RECEIPT.json": "TP-478",
+    "lineage/solar/MJOS-SOLAR-THREE-PROFILE-DESIGN-FREEZE-001-ADMISSION-RECEIPT.md": "TP-483",
+    "lineage/solar/MJOS-SOLAR-THREE-PROFILE-DESIGN-FREEZE-001.md": "TP-478",
+    "manifest/ACCESS-TERMS-MANIFEST-001.json": "TP-485",
+    "manifest/ACCESS-TERMS-MANIFEST-001.md": "TP-482",
+    "manifest/AUTHORITY-GRAPH.json": "TP-477",
+    "manifest/AUTHORSHIP-AND-OWNERSHIP-DECLARATION.md": "TP-487",
+    "manifest/BLUE-PAGES-MANIFEST-001.json": "TP-497",
+    "manifest/BLUE-PAGES-MANIFEST-001.md": "TP-485",
+    "manifest/BUSINESS-ENTITY-AND-AUTHORSHIP-IDENTITY-001.json": "TP-495",
+    "manifest/BUSINESS-ENTITY-AND-AUTHORSHIP-IDENTITY-001.md": "TP-490",
+    "manifest/COLOR-PAPERS-MANIFEST-001.json": "TP-497",
+    "manifest/COLOR-PAPERS-MANIFEST-001.md": "TP-489",
+    "manifest/BANGEL-SPREADSHEETS-MANIFEST-001.json": "TP-493",
+    "manifest/BANGEL-SPREADSHEETS-MANIFEST-001.md": "TP-488",
+    "manifest/DRO-IGNITION-REFERENCE-MANIFEST-001.json": "TP-494",
+    "manifest/DRO-IGNITION-REFERENCE-MANIFEST-001.md": "TP-478",
+    "manifest/DRO-SCALE-AND-STATE-MANIFEST-001.json": "TP-495",
+    "manifest/DRO-SCALE-AND-STATE-MANIFEST-001.md": "TP-478",
+    "manifest/ETHICS-MANIFEST.json": "TP-484",
+    "manifest/ETHICS-MANIFEST.md": "TP-493",
+    "manifest/FAMILY-MANIFESTATION-REGISTER.json": "TP-490",
+    "manifest/FAMILY-OBJECT-REGISTER.json": "TP-485",
+    "manifest/FORMULA-BINDING-TAXONOMY-001.json": "TP-496",
+    "manifest/FORMULA-BINDING-TAXONOMY-001.md": "TP-497",
+    "manifest/JPOSMJ-PRODUCT-ENVELOPE-001.json": "TP-476",
+    "manifest/JPOSMJ-PRODUCT-ENVELOPE-001.md": "TP-477",
+    "manifest/LECANTO-IMAGE-PROVENANCE-INTENT-MANIFEST-001.json": "TP-483",
+    "manifest/LECANTO-IMAGE-PROVENANCE-INTENT-MANIFEST-001.md": "TP-477",
+    "manifest/MANIFEST-COVERAGE-MATRIX.json": "TP-488",
+    "manifest/MJ-PBMEF-MANIFEST-001.json": "TP-499",
+    "manifest/MJ-PBMEF-MANIFEST-001.md": "TP-477",
+    "manifest/MJOS-SOLAR-THREE-PROFILE-REGISTER-001.json": "TP-480",
+    "manifest/MJOS-SOLAR-THREE-PROFILE-REGISTER-001.md": "TP-479",
+    "manifest/NO-AI-INTEGRATION-DECLARATION.md": "TP-476",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-001.json": "TP-477",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-001.md": "TP-482",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-002.json": "TP-476",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-002.md": "TP-500",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-003.json": "TP-477",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-003.md": "TP-495",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-004.json": "TP-492",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-004.md": "TP-497",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-005.json": "TP-490",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-005.md": "TP-494",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-006.json": "TP-487",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-006.md": "TP-499",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-007.json": "TP-480",
+    "manifest/OFFICIAL-DOCUMENTATION-MANIFEST-007.md": "TP-483",
+    "manifest/PEARL-CONTAINMENT-MANIFEST-001.json": "TP-476",
+    "manifest/PEARL-CONTAINMENT-MANIFEST-001.md": "TP-497",
+    "manifest/PEARL-DRO-NODE-MANIFEST-001.json": "TP-485",
+    "manifest/PEARL-DRO-NODE-MANIFEST-001.md": "TP-477",
+    "manifest/PINK-PAPERS-MANIFEST-001.json": "TP-482",
+    "manifest/PINK-PAPERS-MANIFEST-001.md": "TP-496",
+    "manifest/POTENTIAL-IP-POINTS-MANIFEST-001.json": "TP-497",
+    "manifest/POTENTIAL-IP-POINTS-MANIFEST-001.md": "TP-480",
+    "manifest/POTENTIAL-IP-POINTS-MASTER-MANIFEST-002.json": "TP-499",
+    "manifest/POTENTIAL-IP-POINTS-MASTER-MANIFEST-002.md": "TP-476",
+    "manifest/POTENTIAL-IP-POINTS-MASTER-MANIFEST-003.json": "TP-495",
+    "manifest/POTENTIAL-IP-POINTS-MASTER-MANIFEST-003.md": "TP-476",
+    "manifest/POTENTIAL-IP-POINTS-MASTER-MANIFEST-004.json": "TP-483",
+    "manifest/POTENTIAL-IP-POINTS-MASTER-MANIFEST-004.md": "TP-482",
+    "manifest/PROJECT-PRODUCT-REGISTER.json": "TP-499",
+    "manifest/R11-COLOR-PAPER-COVERAGE-MATRIX-001.json": "TP-494",
+    "manifest/REFERENCE-GAS-PROFILE-H2-001.json": "TP-493",
+    "manifest/REFERENCE-GAS-PROFILE-H2-001.md": "TP-490",
+    "manifest/RESERVOIR-COLLECTION-MODULATION-CANON-001.json": "TP-481",
+    "manifest/RESERVOIR-COLLECTION-MODULATION-CANON-001.md": "TP-498",
+    "manifest/RESERVOIR-TRANSACTION-AUTHORITY-MATRIX-001.json": "TP-496",
+    "manifest/RESERVOIR-TRANSACTION-AUTHORITY-MATRIX-001.md": "TP-485",
+    "manifest/SEMICONDUCTOR-DRO-PEARL-INTEGRATION-MANIFEST-001.json": "TP-484",
+    "manifest/SEMICONDUCTOR-DRO-PEARL-INTEGRATION-MANIFEST-001.md": "TP-485",
+    "manifest/SHIVA-DAY1-INTERNAL-BANKING-MVP-001.json": "TP-482",
+    "manifest/SHIVA-DAY1-INTERNAL-BANKING-MVP-001.md": "TP-495",
+    "manifest/SHIVA-MERMAID-PEARL-SYMPOSIUM-REGISTRY-001.json": "TP-477",
+    "manifest/SISTER-PHYSICAL-CONTAINMENT-CANON-001.json": "TP-499",
+    "manifest/SISTER-PHYSICAL-CONTAINMENT-CANON-001.md": "TP-488",
+    "manifest/STANDARD-CONTAINMENT-GEOMETRY-CANON-001.json": "TP-494",
+    "manifest/STANDARD-CONTAINMENT-GEOMETRY-CANON-001.md": "TP-491",
+    "official-docs/README.md": "TP-478",
+    "official-docs/angel-reports/ANGEL-REPORT-SOURCE-ENTRIES-001.json": "TP-488",
+    "official-docs/angel-reports/ANGEL_REPORTS_REGISTER.csv": "TP-491",
+    "official-docs/angel-reports/ANGEL_REPORTS_REGISTER.json": "TP-476",
+    "official-docs/blue-pages/register/BLUE-PAGE-REGISTER-001.csv": "TP-484",
+    "official-docs/blue-pages/register/BLUE-PAGE-REGISTER-001.json": "TP-497",
+    "official-docs/blue-pages/source/BLUE-PAGES-METHODOLOGY-001.md": "TP-483",
+    "official-docs/brown-pages/BROWN-PAGE-SOURCE-ENTRIES-001.json": "TP-494",
+    "official-docs/brown-pages/BROWN_PAGES_REGISTER.csv": "TP-496",
+    "official-docs/brown-pages/BROWN_PAGES_REGISTER.json": "TP-490",
+    "official-docs/day0-preparedness/HISTORICAL-R8-PDF-READABILITY-EXCEPTION-001.md": "TP-476",
+    "official-docs/ethics/source/MJ_PBMEF_PreDay0_Ethical_Standard_001.md": "TP-489",
+    "official-docs/grey-pages/GREY-PAGES-REGISTER-001.json": "TP-480",
+    "official-docs/orange-pages/ORANGE-PAGES-REGISTER-001.json": "TP-495",
+    "official-docs/orange-pages/register/POTENTIAL-IP-POINTS-MASTER-INDEX-180000.csv": "TP-496",
+    "official-docs/orange-pages/register/POTENTIAL-IP-POINTS-MASTER-MANIFEST-004-180K.json": "TP-485",
+    "official-docs/orange-pages/register/R11-POTENTIAL-IP-POINTS-90001-180000.csv": "TP-481",
+    "official-docs/pink-paper/source/PinkPaper_Volume01_Gateway.md": "TP-487",
+    "official-docs/pink-paper/source/PinkPaper_Volume02_Formulas_F001_F050.md": "TP-499",
+    "official-docs/pink-paper/source/PinkPaper_Volume03_Formulas_F051_F100.md": "TP-489",
+    "official-docs/pink-paper/source/PinkPaper_Volume04_Formulas_F101_F145.md": "TP-487",
+    "official-docs/pink-paper/source/PinkPaper_Volume05_Family_and_Objects.md": "TP-490",
+    "official-docs/pink-paper/source/PinkPaper_Volume06_Products_and_WhitePapers.md": "TP-479",
+    "official-docs/pink-papers/ip/source/PINK-PAPER-POTENTIAL-IP-STATUS-001.json": "TP-499",
+    "official-docs/pink-papers/ip/source/PINK-PAPER-POTENTIAL-IP-STATUS-001.md": "TP-486",
+    "official-docs/pink-papers/testing/source/PINK-PAPER-TESTING-EVIDENCE-001.json": "TP-487",
+    "official-docs/pink-papers/testing/source/PINK-PAPER-TESTING-EVIDENCE-001.md": "TP-494",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-CROSS-REFERENCE-MATRIX-001.json": "TP-490",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-MASTER-INDEX-002.json": "TP-477",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-MASTER-REGISTER-002.csv": "TP-476",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-REGISTER-001.csv": "TP-499",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-REGISTER-001.json": "TP-477",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-SUMMARY-001.json": "TP-496",
+    "official-docs/potential-ip-points/register/POTENTIAL-IP-POINTS-TOP-250-TRIAGE-001.csv": "TP-492",
+    "official-docs/potential-ip-points/source/POTENTIAL-IP-POINTS-BATCH-SEQUENCE-001.md": "TP-498",
+    "official-docs/potential-ip-points/source/POTENTIAL-IP-POINTS-FOUNDER-READING-GUIDE-001.md": "TP-493",
+    "official-docs/potential-ip-points/source/POTENTIAL-IP-POINTS-LEGAL-AND-STATUS-BOUNDARY-001.md": "TP-495",
+    "official-docs/potential-ip-points/source/POTENTIAL-IP-POINTS-LEGAL-REFERENCES-001.json": "TP-496",
+    "official-docs/potential-ip-points/source/POTENTIAL-IP-POINTS-METHODOLOGY-001.md": "TP-495",
+    "official-docs/purple-pages/PURPLE-PAGE-SOURCE-ENTRIES-001.json": "TP-486",
+    "official-docs/purple-pages/PURPLE_PAGES_REGISTER.csv": "TP-488",
+    "official-docs/purple-pages/PURPLE_PAGES_REGISTER.json": "TP-480",
+    "official-docs/r8/batches/source/BATCH-000.md": "TP-490",
+    "official-docs/r8/batches/source/BATCH-001.md": "TP-479",
+    "official-docs/r8/batches/source/BATCH-002.md": "TP-484",
+    "official-docs/r8/batches/source/BATCH-003.md": "TP-478",
+    "official-docs/r8/batches/source/BATCH-004.md": "TP-485",
+    "official-docs/r8/batches/source/BATCH-005.md": "TP-477",
+    "official-docs/r8/batches/source/BATCH-006.md": "TP-482",
+    "official-docs/r8/batches/source/BATCH-007.md": "TP-480",
+    "official-docs/r8/pink-paper/source/DRO-IGNITION-PINK-001.md": "TP-490",
+    "official-docs/r8/pink-paper/source/DRO-PEARL-PINK-001.md": "TP-480",
+    "official-docs/r8/pink-paper/source/DRO-PINK-001.md": "TP-496",
+    "official-docs/r8/pink-paper/source/LECANTO-PINK-001.md": "TP-499",
+    "official-docs/r8/pink-paper/source/SC-DRO-PEARL-PINK-001.md": "TP-488",
+    "official-docs/r8/potential-ip-points/register/POTENTIAL-IP-POINTS-MASTER-INDEX-003.json": "TP-490",
+    "official-docs/r8/potential-ip-points/register/R8-POTENTIAL-IP-POINTS-REGISTER-001.csv": "TP-493",
+    "official-docs/r8/potential-ip-points/register/R8-POTENTIAL-IP-POINTS-REGISTER-001.json": "TP-479",
+    "official-docs/r8/potential-ip-points/register/R8-POTENTIAL-IP-POINTS-SUMMARY-001.json": "TP-496",
+    "official-docs/r8/potential-ip-points/register/R8-POTENTIAL-IP-POINTS-TOP-500-TRIAGE-001.csv": "TP-488",
+    "official-docs/r8/potential-ip-points/source/R8-POTENTIAL-IP-POINTS-LEGAL-AND-STATUS-BOUNDARY-001.md": "TP-491",
+    "official-docs/r8/test-results/source/PRE-DAY0-TEST-RESULTS-001.md": "TP-492",
+    "official-docs/r8/whitepapers/source/DRO-IGNITION-WP-001.md": "TP-479",
+    "official-docs/r8/whitepapers/source/DRO-PEARL-WP-001.md": "TP-480",
+    "official-docs/r8/whitepapers/source/DRO-WP-001.md": "TP-483",
+    "official-docs/r8/whitepapers/source/LECANTO-WP-001.md": "TP-484",
+    "official-docs/r8/whitepapers/source/SC-DRO-PEARL-WP-001.md": "TP-496",
+    "official-docs/solar/SOLAR-R7-READING-GUIDE-001.md": "TP-484",
+    "official-docs/solar/pink-paper/source/SOLAR-PINK-CORE-001.md": "TP-477",
+    "official-docs/solar/pink-paper/source/SOLAR-PINK-MARINE-001.md": "TP-486",
+    "official-docs/solar/pink-paper/source/SOLAR-PINK-ROCKET-001.md": "TP-488",
+    "official-docs/solar/pink-paper/source/SOLAR-PINK-SEMI-PHONE-001.md": "TP-494",
+    "official-docs/solar/potential-ip-points/SOLAR-POTENTIAL-IP-POINTS-README-001.md": "TP-495",
+    "official-docs/solar/potential-ip-points/register/SOLAR-POTENTIAL-IP-POINTS-CROSS-REFERENCE-MATRIX-001.json": "TP-495",
+    "official-docs/solar/potential-ip-points/register/SOLAR-POTENTIAL-IP-POINTS-REGISTER-001.csv": "TP-480",
+    "official-docs/solar/potential-ip-points/register/SOLAR-POTENTIAL-IP-POINTS-REGISTER-001.json": "TP-476",
+    "official-docs/solar/potential-ip-points/register/SOLAR-POTENTIAL-IP-POINTS-SUMMARY-001.json": "TP-480",
+    "official-docs/solar/potential-ip-points/register/SOLAR-POTENTIAL-IP-POINTS-TOP-500-TRIAGE-001.csv": "TP-482",
+    "official-docs/solar/potential-ip-points/source/SOLAR-POTENTIAL-IP-POINTS-LEGAL-AND-STATUS-BOUNDARY-001.md": "TP-493",
+    "official-docs/solar/potential-ip-points/source/SOLAR-POTENTIAL-IP-POINTS-METHODOLOGY-001.md": "TP-496",
+    "official-docs/solar/source/MJOS-SOLAR-THREE-PROFILE-DESIGN-FREEZE-001.md": "TP-490",
+    "official-docs/solar/whitepapers/source/MJ-PBMEF-SOLAR-WP-01.md": "TP-495",
+    "official-docs/solar/whitepapers/source/MJ-PBMEF-SOLAR-WP-02.md": "TP-492",
+    "official-docs/solar/whitepapers/source/MJ-PBMEF-SOLAR-WP-03.md": "TP-492",
+    "official-docs/solar/whitepapers/source/MJ-PBMEF-SOLAR-WP-04.md": "TP-482",
+    "official-docs/syntax-integration/SYNTAX-INTEGRATION-REGISTER-001.json": "TP-492",
+    "official-docs/teal-pages/TEAL-PAGE-SOURCE-ENTRIES-001.json": "TP-483",
+    "official-docs/teal-pages/TEAL_PAGES_REGISTER.csv": "TP-485",
+    "official-docs/teal-pages/TEAL_PAGES_REGISTER.json": "TP-499",
+    "official-docs/terms/MJ-PBMEF-INTERNAL-ACCESS-AND-USE-TERMS-001.json": "TP-479",
+    "official-docs/terms/MJ-PBMEF-INTERNAL-ACCESS-AND-USE-TERMS-001.md": "TP-483",
+    "official-docs/yellow-pages/YELLOW-PAGE-SOURCE-ENTRIES-001.json": "TP-482",
+    "official-docs/yellow-pages/YELLOW_PAGES_REGISTER.csv": "TP-482",
+    "official-docs/yellow-pages/YELLOW_PAGES_REGISTER.json": "TP-496",
+    "passkey/ENCRYPTED-GIT-INTEGRATION-PLAN.md": "TP-498",
+    "passkey/ENCRYPTION-ENVELOPE-SCHEMA.json": "TP-479",
+    "passkey/PASSKEY-001-CEREMONY-PLAN.md": "TP-479",
+    "passkey/PASSKEY-001-PREREQUISITES.md": "TP-480",
+    "passkey/PASSKEY-001-SCOPE.md": "TP-495",
+    "pathways/COMMAND-FLOW.md": "TP-478",
+    "pathways/BANGEL-SPREADSHEETS-PHYSICS-ENGINEERING-PATHWAY-001.md": "TP-495",
+    "pathways/DRO-COLLECTION-MEASUREMENT-AND-STATE-PATHWAY-001.md": "TP-488",
+    "pathways/DRO-PEARL-NODE-HANDOFF-PATHWAY-001.md": "TP-499",
+    "pathways/DRO-START-AND-RESTART-REFERENCE-PATHWAY-001.md": "TP-487",
+    "pathways/FORMULA-REGISTER.json": "TP-483",
+    "pathways/LECANTO-IMAGE-PROVENANCE-AND-INTENT-PATHWAY-001.md": "TP-486",
+    "pathways/PEARL-PHYSICS-AND-TRANSFER-PATHWAY-001.md": "TP-476",
+    "pathways/PHYSICS-MATH-PATHWAY-STRING-001.md": "TP-485",
+    "pathways/R8-DRO-PEARL-LECANTO-FORMULA-SUPPLEMENT-001.json": "TP-484",
+    "pathways/RESERVOIR-COLLECTION-MODULATION-PATHWAY-001.md": "TP-476",
+    "pathways/RESERVOIR-LAKE-AND-SPIRAL-REENTRY-PATHWAY-001.md": "TP-494",
+    "pathways/SEMICONDUCTOR-DRO-PEARL-INTEGRATION-PATHWAY-001.md": "TP-486",
+    "pathways/SOLAR-FORMULA-SUPPLEMENT-001.json": "TP-486",
+    "pathways/STANDARD-CONTAINMENT-GEOMETRY-AND-H2-REFERENCE-PATHWAY-001.md": "TP-492",
+    "schemas/BANGEL-SPREADSHEETS-WORKBOOK.schema.json": "TP-490",
+    "schemas/DRO-IGNITION-REFERENCE.schema.json": "TP-491",
+    "schemas/DRO-PEARL-HANDOFF.schema.json": "TP-477",
+    "schemas/DRO-UNIT.schema.json": "TP-494",
+    "schemas/LECANTO-IMAGE-EVIDENCE.schema.json": "TP-493",
+    "schemas/PEARL-VARIANCE-CONTAINER.schema.json": "TP-493",
+    "schemas/REFERENCE-GAS-PROFILE.schema.json": "TP-490",
+    "schemas/RESERVOIR-COLLECTION-MODULATION.schema.json": "TP-477",
+    "schemas/RESERVOIR-TRANSACTION-RECEIPT.schema.json": "TP-476",
+    "schemas/SISTER-PHYSICAL-CONTAINMENT-PROFILE.schema.json": "TP-496",
+    "schemas/STANDARD-CONTAINMENT-GEOMETRY.schema.json": "TP-497",
+    "tests/conftest.py": "TP-479",
+    "tests/test_authority.py": "TP-490",
+    "tests/test_containment_geometry_r3.py": "TP-500",
+    "tests/test_bangel_sheet_atomicity_and_evidence.py": "TP-493",
+    "tests/test_bangel_spreadsheets.py": "TP-478",
+    "tests/test_formulas.py": "TP-491",
+    "tests/test_identity.py": "TP-477",
+    "tests/test_manifestations.py": "TP-482",
+    "tests/test_official_documentation_r6.py": "TP-486",
+    "tests/test_pearls.py": "TP-498",
+    "tests/test_preceremony_current_build_sync.py": "TP-482",
+    "tests/test_preceremony_numeric_integrity.py": "TP-500",
+    "tests/test_preceremony_security_and_semantics.py": "TP-489",
+    "tests/test_r11_color_ip_syntax.py": "TP-484",
+    "tests/test_r2_integration.py": "TP-492",
+    "tests/test_r3_integration.py": "TP-480",
+    "tests/test_r4_integration.py": "TP-492",
+    "tests/test_r8_dro_pearl_lecanto.py": "TP-495",
+    "tests/test_r9_blue_pink_terms.py": "TP-500",
+    "tests/test_reference_physical_gates_fail_closed.py": "TP-476",
+    "tests/test_repository_rules.py": "TP-484",
+    "tests/test_reservoir_modulation_r4.py": "TP-478",
+    "tests/test_sister_containment.py": "TP-477",
+    "tests/test_solar_r7_final.py": "TP-491",
+    "tests/test_whitepapers.py": "TP-495",
+    "tools/build_content_manifest.py": "TP-480",
+    "tools/build_official_manifest_006.py": "TP-488",
+    "tools/build_official_manifest_007.py": "TP-494",
+    "tools/build_potential_ip_points.py": "TP-494",
+    "tools/build_r10_closure_artifacts.py": "TP-500",
+    "tools/build_r11_closure_artifacts.py": "TP-500",
+    "tools/build_r11_color_papers.py": "TP-491",
+    "tools/build_r11_ip_orange_pages.py": "TP-491",
+    "tools/run_r10_robustness_scenarios.py": "TP-478",
+    "tools/run_r11_23000_scenarios.py": "TP-484",
+    "tools/run_r8_scenario_tests.py": "TP-489",
+    "tools/verify_repository.py": "TP-485",
+    "validation/COVERAGE-PYTEST-TRANSCRIPT-R10.txt": "TP-477",
+    "validation/COVERAGE-R10.json": "TP-492",
+    "validation/COVERAGE-R10.txt": "TP-476",
+    "validation/DAY0-CEREMONY-PREPAREDNESS-REVIEW-001.json": "TP-500",
+    "validation/DAY0-CEREMONY-PREPAREDNESS-REVIEW-001.md": "TP-482",
+    "validation/DOCX-A11Y-AUDIT.json": "TP-480",
+    "validation/DOCX-QA-RECEIPT.json": "TP-492",
+    "validation/DOCX-QA-RECEIPT.md": "TP-478",
+    "validation/FORBIDDEN-TERM-SCAN.json": "TP-482",
+    "validation/FORMULA-IMPLEMENTATION-COVERAGE-001.json": "TP-488",
+    "validation/FORMULA-IMPLEMENTATION-COVERAGE-001.md": "TP-494",
+    "validation/MJ-PBMEF-R8-DRO-PEARL-LECANTO-90K-INTEGRATION-RECEIPT-001.json": "TP-489",
+    "validation/MJ-PBMEF-R8-DRO-PEARL-LECANTO-90K-INTEGRATION-RECEIPT-001.md": "TP-490",
+    "validation/MJ-PBMEF-R9-BLUE-PINK-TERMS-INTEGRATION-RECEIPT-001.json": "TP-487",
+    "validation/MJ-PBMEF-R9-BLUE-PINK-TERMS-INTEGRATION-RECEIPT-001.md": "TP-486",
+    "validation/MJ-PBMEF-R9-BLUE-PINK-TERMS-PDF-QA-RECEIPT-001.json": "TP-500",
+    "validation/MJ-PBMEF-R9-BLUE-PINK-TERMS-PDF-QA-RECEIPT-001.md": "TP-500",
+    "validation/OFFICIAL-DOCUMENTATION-QA-RECEIPT-001.json": "TP-498",
+    "validation/OFFICIAL-DOCUMENTATION-QA-RECEIPT-001.md": "TP-489",
+    "validation/POTENTIAL-IP-POINTS-QA-RECEIPT-001.json": "TP-499",
+    "validation/POTENTIAL-IP-POINTS-QA-RECEIPT-001.md": "TP-487",
+    "validation/PYTEST-EXIT-CODE-R10.txt": "TP-480",
+    "validation/PYTEST-TRANSCRIPT-R10.txt": "TP-500",
+    "validation/PYTEST-TRANSCRIPT-R7-FINAL.txt": "TP-480",
+    "validation/PYTEST-TRANSCRIPT-R7.txt": "TP-487",
+    "validation/PYTEST-TRANSCRIPT-R8.txt": "TP-500",
+    "validation/PYTEST-TRANSCRIPT-R9.txt": "TP-496",
+    "validation/R11-COLOR-PAPER-BUILD-SUMMARY-001.json": "TP-493",
+    "validation/R11-FINAL-PRECEREMONY-REVIEW-001.json": "TP-499",
+    "validation/R11-FINAL-PRECEREMONY-REVIEW-001.md": "TP-492",
+    "validation/R5-OFFICIAL-DOCUMENTATION-CANDIDATE-RECEIPT-001.json": "TP-495",
+    "validation/R5-OFFICIAL-DOCUMENTATION-CANDIDATE-RECEIPT-001.md": "TP-500",
+    "validation/R6-POTENTIAL-IP-POINTS-CANDIDATE-RECEIPT-001.json": "TP-492",
+    "validation/R6-POTENTIAL-IP-POINTS-CANDIDATE-RECEIPT-001.md": "TP-479",
+    "validation/R7-SOLAR-THREE-PROFILE-INTEGRATION-RECEIPT-001.json": "TP-488",
+    "validation/R7-SOLAR-THREE-PROFILE-INTEGRATION-RECEIPT-001.md": "TP-498",
+    "validation/R8-CHANGED-PDF-REGENERATION-RECEIPT-001.json": "TP-493",
+    "validation/R8-DOCUMENTATION-QA-RECEIPT-001.json": "TP-494",
+    "validation/R8-DOCUMENTATION-QA-RECEIPT-001.md": "TP-477",
+    "validation/R8-SCENARIO-TEST-TRANSCRIPT.txt": "TP-500",
+    "validation/R9-PDF-STRUCTURAL-QA-001.json": "TP-488",
+    "validation/REPOSITORY-CONTENT-MANIFEST.json": "TP-479",
+    "validation/REPOSITORY-CONTENT-ROOT.txt": "TP-484",
+    "validation/REPOSITORY-VERIFICATION-R10.json": "TP-479",
+    "validation/REPOSITORY-VERIFICATION-R8-TRANSCRIPT.txt": "TP-491",
+    "validation/REPOSITORY-VERIFICATION-R8.json": "TP-497",
+    "validation/REPOSITORY-VERIFICATION-R9-TRANSCRIPT.txt": "TP-500",
+    "validation/REPOSITORY-VERIFICATION-R9.json": "TP-499",
+    "validation/REPOSITORY-VERIFICATION-TRANSCRIPT-R7-FINAL.txt": "TP-498",
+    "validation/REPOSITORY-VERIFICATION-TRANSCRIPT-R7.txt": "TP-495",
+    "validation/REPOSITORY-VERIFICATION.json": "TP-494",
+    "validation/REPOSITORY-VERIFY-TRANSCRIPT-R7.txt": "TP-492",
+    "validation/REPOSITORY-VERIFY-TRANSCRIPT.txt": "TP-500",
+    "validation/SOLAR-R7-DOCUMENT-QA-RECEIPT-001.json": "TP-499",
+    "validation/SOLAR-R7-DOCUMENT-QA-RECEIPT-001.md": "TP-481",
+    "validation/SOLAR-R7-PDF-QA-RECEIPT-001.json": "TP-492",
+    "validation/SOLAR-R7-PDF-QA-RECEIPT-001.md": "TP-500",
+    "validation/SOLAR-R7-POTENTIAL-IP-QA-RECEIPT-001.json": "TP-481",
+    "validation/SOLAR-R7-POTENTIAL-IP-QA-RECEIPT-001.md": "TP-498",
+    "validation/SOURCE-ROBUSTNESS-AND-COVERAGE-RECEIPT-001.json": "TP-477",
+    "validation/SOURCE-ROBUSTNESS-AND-COVERAGE-RECEIPT-001.md": "TP-498",
+    "validation/TEST-TRANSCRIPT-R7.txt": "TP-492",
+    "validation/TEST-TRANSCRIPT.txt": "TP-477",
+    "validation/VALIDATION-PLAN.md": "TP-493",
+    "validation/VALIDATION-REPORT.md": "TP-476",
+    "validation/VALIDATION-RESULTS.json": "TP-500",
+    "validation/r10-robustness-scenarios/R10-ROBUSTNESS-SCENARIO-RESULTS.json": "TP-496",
+    "validation/r10-robustness-scenarios/R10-ROBUSTNESS-SCENARIO-SUMMARY.json": "TP-485",
+    "validation/r11-23000-scenarios/R11-23000-SCENARIO-SUMMARY.json": "TP-479",
+    "validation/r11-23000-scenarios/R11-23000-SCENARIO-SUMMARY.txt": "TP-496",
+    "validation/r8-scenario-tests/R8-SCENARIO-TEST-RESULTS-SUMMARY.json": "TP-497",
+    "validation/r8-scenario-tests/R8-SCENARIO-TEST-RESULTS.csv": "TP-483",
+    "validation/r9-preflight/BP-PROD-032_MJOS-SOLAR-ROCKET-001.txt": "TP-489",
+    "validation/r9-preflight/Blue_Pages_Volume_01_Pages_001_050.txt": "TP-484",
+    "validation/r9-preflight/Blue_Pages_Volume_06_Pages_251_300.txt": "TP-492",
+    "validation/r9-preflight/MJ_PBMEF_Blue_Pages_Combined_300_Briefs.txt": "TP-477",
+    "validation/r9-preflight/MJ_PBMEF_Internal_Access_and_Use_Terms_001.txt": "TP-495",
+    "validation/r9-preflight/MJ_PBMEF_Pink_Paper_Potential_IP_Status_001.txt": "TP-485",
+    "validation/r9-preflight/MJ_PBMEF_Pink_Paper_Testing_Evidence_001.txt": "TP-488",
+    "whitepapers/INDEX.md": "TP-478",
+    "whitepapers/WHITEPAPER-REGISTER.json": "TP-496",
+    "whitepapers/family/01-mj.md": "TP-477",
+    "whitepapers/family/02-bangel.md": "TP-482",
+    "whitepapers/family/03-elsa.md": "TP-484",
+    "whitepapers/family/04-jp.md": "TP-485",
+    "whitepapers/family/05-mk.md": "TP-485",
+    "whitepapers/family/06-jo.md": "TP-491",
+    "whitepapers/family/07-mjos.md": "TP-487",
+    "whitepapers/family/08-angels.md": "TP-486",
+    "whitepapers/family/09-bellatrix.md": "TP-488",
+    "whitepapers/family/10-sister.md": "TP-498",
+    "whitepapers/family/11-eve.md": "TP-481",
+    "whitepapers/family/12-m3.md": "TP-500",
+    "whitepapers/family/13-mermaid.md": "TP-499",
+    "whitepapers/family/14-shiva.md": "TP-492",
+    "whitepapers/family/15-shekina.md": "TP-482",
+    "whitepapers/family/16-belle.md": "TP-490",
+    "whitepapers/family/17-lecanto.md": "TP-490",
+    "whitepapers/family/18-moana.md": "TP-483",
+    "whitepapers/family/19-aviator.md": "TP-488",
+    "whitepapers/family/20-chi.md": "TP-500",
+    "whitepapers/family/21-water.md": "TP-492",
+    "whitepapers/products/01-pbmef-core.md": "TP-486",
+    "whitepapers/products/02-bangel-language.md": "TP-490",
+    "whitepapers/products/03-elsa-semantics.md": "TP-489",
+    "whitepapers/products/04-jp-canon.md": "TP-479",
+    "whitepapers/products/05-mk-physics.md": "TP-494",
+    "whitepapers/products/06-jo-runtime.md": "TP-488",
+    "whitepapers/products/07-mjos-substrate.md": "TP-480",
+    "whitepapers/products/08-jp-sc-phone.md": "TP-485",
+    "whitepapers/products/09-jp-ls-boat.md": "TP-498",
+    "whitepapers/products/10-jp-peaceful-propulsion.md": "TP-483",
+    "whitepapers/products/11-sister-containment.md": "TP-496",
+    "whitepapers/products/12-eve-screen.md": "TP-490",
+    "whitepapers/products/13-angels-safety.md": "TP-497",
+    "whitepapers/products/14-mermaid-recon.md": "TP-491",
+    "whitepapers/products/15-shiva-rails.md": "TP-497",
+    "whitepapers/products/16-shivas-internal.md": "TP-484",
+    "whitepapers/products/17-shiva-day1-internal-banking-mvp.md": "TP-476",
+    "whitepapers/products/18-shiva-exchange.md": "TP-488",
+    "whitepapers/products/19-moana-browser.md": "TP-480",
+    "whitepapers/products/20-aviator-workspace.md": "TP-478",
+    "whitepapers/products/21-lecanto-visual.md": "TP-476",
+    "whitepapers/products/22-elsa-marketplace.md": "TP-489",
+    "whitepapers/products/23-shekina-continuity.md": "TP-476",
+    "whitepapers/products/24-pearl-containment.md": "TP-480",
+    "whitepapers/products/25-bangel-spreadsheets.md": "TP-478",
+    "whitepapers/products/26-jposmj-portfolio.md": "TP-494",
+    "whitepapers/products/27-standard-containment-geometry.md": "TP-485",
+    "whitepapers/products/28-reservoir-collection-modulation.md": "TP-482",
+    "whitepapers/products/29-solar-core.md": "TP-484",
+    "whitepapers/products/30-solar-semi-phone.md": "TP-497",
+    "whitepapers/products/31-solar-marine.md": "TP-484",
+    "whitepapers/products/32-solar-rocket.md": "TP-495",
+    "whitepapers/products/33-dro-collection.md": "TP-489",
+    "whitepapers/products/34-dro-pearl-handoff.md": "TP-497",
+    "whitepapers/products/35-dro-ignition-reference.md": "TP-482",
+    "whitepapers/products/36-lecanto-image-truth.md": "TP-488",
+    "whitepapers/products/37-semiconductor-dro-pearl.md": "TP-476",
+    "whitepapers/representations/01-state-r1-r2.md": "TP-484",
+    "whitepapers/representations/02-noise-23mg.md": "TP-485",
+    "whitepapers/representations/03-node-3x3.md": "TP-499",
+    "whitepapers/representations/04-memory-handoff.md": "TP-500",
+    "whitepapers/representations/05-static-impetus.md": "TP-479",
+    "whitepapers/representations/06-eve-egress.md": "TP-485",
+    "whitepapers/representations/07-financial-rails.md": "TP-483",
+    "whitepapers/representations/08-passkey.md": "TP-476",
+    "whitepapers/representations/09-pearl-container-acoustics.md": "TP-476",
+    "whitepapers/representations/10-bangel-spreadsheets-field.md": "TP-484",
+    "whitepapers/representations/11-standard-containment-geometry-h2-reference.md": "TP-500",
+    "whitepapers/representations/12-reservoir-return-loop.md": "TP-489",
+    "whitepapers/representations/13-dro-scale-state.md": "TP-489",
+    "whitepapers/representations/14-dro-optical-measurement.md": "TP-485",
+    "whitepapers/representations/15-dro-pearl-node.md": "TP-495",
+    "whitepapers/representations/16-dro-ignition-energy.md": "TP-497",
+    "whitepapers/representations/17-lecanto-provenance-intent.md": "TP-490"
+  },
+  "source_file_mapping_caveat": "The generator assigns each source file to one of25 grouped Teal papers using the source-path hash modulo25. It is inventory coverage, not a semantic mapping or approval.",
+  "display_normalization": {
+    "method": "EXPLICIT_CALLER_SUPPLIED_HISTORICAL_PRODUCT_NAME_MIGRATION",
+    "source_snapshot_sha256": "0fe5e08f7a61bd72ea54fc69745230681c5e282a4fc2c84f825faa2f0f27830f",
+    "canonical_names": [
+      "Bangel"
+    ],
+    "geometry_modified": false,
+    "edge_directions_added": false,
+    "source_approval_created": false
+  }
+}

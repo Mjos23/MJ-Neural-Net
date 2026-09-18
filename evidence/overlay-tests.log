@@ -1,0 +1,15 @@
+test_http_routes_bind_review_and_hold_by_default (test_overlay.CompositionTests.test_http_routes_bind_review_and_hold_by_default) ... ok
+test_inner_request_review_cannot_authorize_whole_envelope (test_overlay.CompositionTests.test_inner_request_review_cannot_authorize_whole_envelope) ... ok
+test_mismatched_child_ids_cues_context_and_extra_fields_reject_before_execution (test_overlay.CompositionTests.test_mismatched_child_ids_cues_context_and_extra_fields_reject_before_execution) ... ok
+test_native_recall_recovers_baseline_tie_without_fabricating_context (test_overlay.CompositionTests.test_native_recall_recovers_baseline_tie_without_fabricating_context) ... ok
+test_all_five_templates_and_every_source_occurrence_are_preserved (test_overlay.DiagramSourceTests.test_all_five_templates_and_every_source_occurrence_are_preserved) ... ok
+test_conflicting_picture_and_text_are_separate (test_overlay.DiagramSourceTests.test_conflicting_picture_and_text_are_separate) ... ok
+test_absent_command_evidence_and_equal_scores_hold (test_overlay.NativeOverlayTests.test_absent_command_evidence_and_equal_scores_hold) ... ok
+test_every_layer_executes_and_combines_with_bounded_diffusion (test_overlay.NativeOverlayTests.test_every_layer_executes_and_combines_with_bounded_diffusion) ... ok
+test_kernel_improvement_requires_independent_whole_envelope_review (test_overlay.NativeOverlayTests.test_kernel_improvement_requires_independent_whole_envelope_review) ... ok
+test_native_conflict_and_any_downstream_deny_dominate (test_overlay.NativeOverlayTests.test_native_conflict_and_any_downstream_deny_dominate) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 35.992s
+
+OK
