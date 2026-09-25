@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "MJ Neural Net: Bangel-native associative recall with bounded predictive node placement and independent review"
 readme = "README.md"
 requires-python = ">=3.12"
-license = "MIT"
+license = "LicenseRef-Proprietary"
 license-files = ["LICENSE"]
 authors = [{name = "Michael Patrick Bangel"}]
 dependencies = ["bangel-language==0.2.0rc1", "mj-memory-recall==0.1.0"]

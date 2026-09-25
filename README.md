@@ -1,5 +1,8 @@
 # MJ Neural Net
 
+> Current rights: all rights reserved by MJ Physics Engineering / Michael Bangel. No new license is granted by this revision. Prior grants and third-party notices remain effective; see the root LICENSE and LICENSING.md.
+
+
 **MJ Neural Net 0.1.0** is an independently installable API plugin cloned from
 MJ-Bangel-Neural-Network-Plugin. It adds five source-grounded diagram layers,
 bounded command-driven node placement, and optional composition with the
@@ -227,4 +230,4 @@ spatial playbook layer as its own ablation. To evaluate composed
 retrieval, compare against the unchanged associative baseline on paired
 cases. No significant or general benefit is claimed without that evidence.
 
-Copyright (c) 2026 Michael Patrick Bangel. MIT license; see [LICENSE](LICENSE).
+Copyright (c) 2026 Michael Patrick Bangel. All rights reserved; no new license granted. See [LICENSE](LICENSE).
